@@ -1,0 +1,1442 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.17.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>core_nt</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1929547</BlastOutput_query-ID>
+  <BlastOutput_query-def>Z78533.1 C.irapeanum 5.8S rRNA gene and ITS1 and ITS2 DNA</BlastOutput_query-def>
+  <BlastOutput_query-len>740</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1929547</Iteration_query-ID>
+  <Iteration_query-def>Z78533.1 C.irapeanum 5.8S rRNA gene and ITS1 and ITS2 DNA</Iteration_query-def>
+  <Iteration_query-len>740</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|2765658|emb|Z78533.1|</Hit_id>
+  <Hit_def>C.irapeanum 5.8S rRNA gene and ITS1 and ITS2 DNA</Hit_def>
+  <Hit_accession>Z78533</Hit_accession>
+  <Hit_len>740</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1335.78</Hsp_bit-score>
+      <Hsp_score>1480</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>740</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>740</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>740</Hsp_identity>
+      <Hsp_positive>740</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>740</Hsp_align-len>
+      <Hsp_qseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTGTACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACCCGGAGCGGCGGCGTGCTGTCGCGTGCCCAATGAATTTTGATGACTCTCGCAAACGGGAATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTCGCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGCAGCTGCCGTGCGAATCCCCCATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCCAATGGAGGGCGGTTGACCGCCATTCGGATGTGACCCCAGGTCAGGCGGGGGCACCCGCTGAGTTTACGC</Hsp_qseq>
+      <Hsp_hseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTGTACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACCCGGAGCGGCGGCGTGCTGTCGCGTGCCCAATGAATTTTGATGACTCTCGCAAACGGGAATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTCGCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGCAGCTGCCGTGCGAATCCCCCATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCCAATGGAGGGCGGTTGACCGCCATTCGGATGTGACCCCAGGTCAGGCGGGGGCACCCGCTGAGTTTACGC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|751868575|gb|KJ939539.1|</Hit_id>
+  <Hit_def>Cypripedium irapeanum voucher Szlachetko s.n. 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KJ939539</Hit_accession>
+  <Hit_len>745</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1201.43</Hsp_bit-score>
+      <Hsp_score>1331</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>740</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>735</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>716</Hsp_identity>
+      <Hsp_positive>716</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>741</Hsp_align-len>
+      <Hsp_qseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTGTACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACCCGGAGCGGCGGCGTGCTGTCGCGTGCCCAATGAATTTT-GATGACTCTCGCAAACGGGAATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTCGCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGCAGCTGCCGTGCGAATCCCCCATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCCAATGGAGGGCGGTTGACCGCCATTCGGATGTGACCCCAGGTCAGGCGGGGGCACCCGCTGAGTTTACGC</Hsp_qseq>
+      <Hsp_hseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGTTGAGACCGTGGAATATACGATCGAGTGAATCCGGAGGACCGGTGTACTCAGCTCGCCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGATGCCGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCA-AAAAGCCGGAGCGGCGGCGTGCTGTCGCGTGCC-AATGAATTTTTGATGACTCTCGGCAACGGATATCTTGGCTCTT-GCATCG-ATG-AAGAACGCAGCGAAATGCGATAAGTGGTGTGAAWTGCAGAATCCCGTGAACCATCGAGTCTTT-GAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTCGCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGCAGCTGCCGTGCGAATCCCCCATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCCAATGGAGGGCGGTTGACCGCCATTCGGATGTGACCCCAGGTCAGGCGGGGCCACCCGCTGAGTTTAAGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||| ||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||| |||||||||||||||||||||||||||| |||||||||| |||||||||||  |||||  |||||||||||| |||||| ||| ||| ||||||||||||||||||||||||||||| ||||  ||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|347626748|emb|FR720328.1|</Hit_id>
+  <Hit_def>Cypripedium irapeanum ITS1, 5.8S rRNA gene, ITS2 and 26S rRNA gene (partial), specimen voucher MEXU Salazar 7234</Hit_def>
+  <Hit_accession>FR720328</Hit_accession>
+  <Hit_len>723</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1185.2</Hsp_bit-score>
+      <Hsp_score>1313</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>737</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>722</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>705</Hsp_identity>
+      <Hsp_positive>705</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>728</Hsp_align-len>
+      <Hsp_qseq>TTTCCGTAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTGTACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACCCGGAGCGGCGGCGTGCTGTCGCGTGCCCAATGAATTTT-GATGACTCTCGCAAACGGGAATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTCGCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGCAGCTGCCGTGCGAATCCCCCATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCCAATGGAGGGCGGTTGACCGCCATTCGGATGTGACCCCAGGTCAGGCGGGGGCACCCGCTGAGTTTA</Hsp_qseq>
+      <Hsp_hseq>TTTCCGTAGGTGAACCTGCGGAAGGATCATTGTTGAGACCGTGGAATATACGATCGAGTGAATCCGGAGGACCGGTGTACTCAGCTCGCCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGATGCCGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCA-AAAAGCCGGAGCGGCGGCGTGCTGTCGCGTGCC-AATGAATTTTTGATGACTCTCGGCAACGGATATCTTGGCTCTT-GCATCG-ATG-AAGAACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTT-GAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTCGCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGCAGCTGCCGTGCGAATCCCCCATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCCAATGGAGGGCGGTTGACCGCCATTCGGATGTGACCCCAGGTCAGGCGGGGCCACCCGCTGAGTTTA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||| ||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||| |||||||||||||||||||||||||||| |||||||||| |||||||||||  |||||  |||||||||||| |||||| ||| ||| ||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|347626747|emb|FR720327.1|</Hit_id>
+  <Hit_def>Cypripedium molle ITS1, 5.8S rRNA gene, ITS2 and 26S rRNA gene (partial), specimen voucher MEXU Salazar 6883</Hit_def>
+  <Hit_accession>FR720327</Hit_accession>
+  <Hit_len>723</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1180.69</Hsp_bit-score>
+      <Hsp_score>1308</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>737</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>722</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>704</Hsp_identity>
+      <Hsp_positive>704</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>728</Hsp_align-len>
+      <Hsp_qseq>TTTCCGTAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTGTACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACCCGGAGCGGCGGCGTGCTGTCGCGTGCCCAATGAATTTT-GATGACTCTCGCAAACGGGAATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTCGCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGCAGCTGCCGTGCGAATCCCCCATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCCAATGGAGGGCGGTTGACCGCCATTCGGATGTGACCCCAGGTCAGGCGGGGGCACCCGCTGAGTTTA</Hsp_qseq>
+      <Hsp_hseq>TTTCCGTAGGTGAACCTGCGGAAGGATCATTGTTGAGACCGTGGAATATACGATCGAGTGAATCCGGAGGACCGGTGTACTCAGCTCGCCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGATGCCGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCA-AAAAGCCGGAGGGGCGGCGTGCTGTCGCGTGCC-AATGAATTTTTGATGACTCTCGGCAACGGATATCTTGGCTCTT-GCATCG-ATG-AAGAACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTT-GAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTCGCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGCAGCTGCCGTGCGAATCCCCCATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCCAATGGAGGGCGGTTGACCGCCATTCGGATGTGACCCCAGGTCAGGCGGGGCCACCCGCTGAGTTTA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||| ||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||| |||||| ||||||||||||||||||||| |||||||||| |||||||||||  |||||  |||||||||||| |||||| ||| ||| ||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|751868574|gb|KJ939538.1|</Hit_id>
+  <Hit_def>Cypripedium dickinsonianum voucher Szlachetko s.n. 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KJ939538</Hit_accession>
+  <Hit_len>760</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1154.54</Hsp_bit-score>
+      <Hsp_score>1279</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>740</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>750</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>713</Hsp_identity>
+      <Hsp_positive>713</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>756</Hsp_align-len>
+      <Hsp_qseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTGTACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACCCGGAGCGGCGGCGTGCTGTCGCGTGCCCAATGAATTTT-GATGACTCTCGCAAACGGGAATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTCGCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGCAGCTGCCGTGCGAATCCCCCATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCCAATGGA---------------GGGCGGTTGACCGCCATTCGGATGTGACCCCAGGTCAGGCGGGGGCACCCGCTGAGTTTACGC</Hsp_qseq>
+      <Hsp_hseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGTTGAGACCGCGGAATATACGATCGAGTGAATCCGGAGGACCGGTGTACTCAGCTCGCCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGATGCCGGGCCTCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCA-AAAAGCCGGAGGGGCGGCGTGCTGTCGCGTGCC-AATGAATTTTTGATGACTCTCGGCAACGGATATCTTGGCTCTT-GCATCG-ATG-AAGAACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTT-GAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTCGCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGCAGCTGCCGTGCGAATCCCCCATGTTGTCGTACTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCCAATGGAGGCACACCGACCCTCGGGCGGTTGACCGCCATTCGGATGTGACCCCAGGTCAGGCGGGGCCACCCGCTGAGTTTAAGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||| |||||||| |||||| |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||| ||  ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||| |||||| ||||||||||||||||||||| |||||||||| |||||||||||  |||||  |||||||||||| |||||| ||| ||| ||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||               |||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|402502938|gb|JQ660885.1|</Hit_id>
+  <Hit_def>Cypripedium dickinsonianum 18S ribosomal RNA gene, partial sequence; and internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence</Hit_def>
+  <Hit_accession>JQ660885</Hit_accession>
+  <Hit_len>708</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1079.7</Hsp_bit-score>
+      <Hsp_score>1196</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>700</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>708</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>673</Hsp_identity>
+      <Hsp_positive>673</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>716</Hsp_align-len>
+      <Hsp_qseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTGTACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACCCGGAGCGGCGGCGTGCTGTCGCGTGCCCAATGAATTTT-GATGACTCTCGCAAACGGGAATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTCGCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGCAGCTGCCGTGCGAATCCCCCATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCCAATGGA---------------GGGCGGTTGACCGCCATTCGGAT</Hsp_qseq>
+      <Hsp_hseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGTTGAGACCGCGGAATATACGATCGAGTGAATCCGGAGGACCGGTGTACTCAGCTCGCCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGATGCCGGGCCTCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATG-CATTGTCT--CCAAAAAGCCGGAGGGGCGGCGTGCTGTCGCGTGCC-AATGAATTTTTGATGACTCTCGGCAACGGATATCTTGGCTCTT-GCATCG-ATG-AAGAACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTT-GAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTCGCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGCAGCTGCCGTGCGAATCCCCCATGTTGTCGTACTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCCAATGGAGGCACACCGACCCTCGGGCGGTTGACCGCCATTCGGAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||| |||||||| |||||| |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||| ||  ||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||  || |||| |||||| ||||||||||||||||||||| |||||||||| |||||||||||  |||||  |||||||||||| |||||| ||| ||| ||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||               |||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|2765653|emb|Z78528.1|</Hit_id>
+  <Hit_def>C.plectrochilum 5.8S rRNA gene and ITS1 and ITS2 DNA</Hit_def>
+  <Hit_accession>Z78528</Hit_accession>
+  <Hit_len>754</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>695.583</Hsp_bit-score>
+      <Hsp_score>770</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>737</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>751</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>618</Hsp_identity>
+      <Hsp_positive>618</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>762</Hsp_align-len>
+      <Hsp_qseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTG--TACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACCCGGAGCGGCGGCGTGCTGTCGCGTGC-CCAATGAATTTTGATGACTCTCGCAAACGGGAATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTC--GCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGC-----AGCTGCCGTGCGAATCCCCCATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCCAATGGA---------------GGGCGGTTGACCGCCATTCGGATGTGACCCCAGGTCAGGCGGGGGCACCCGCTGAGTTTA</Hsp_qseq>
+      <Hsp_hseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGTTGAGACAGCATAATAAACGATTGAGTGAATCCGGAGGACCTGTGGCTACTCGGCTCGCTAGTGAGGT-GCTTCTATGGTGACCCTAAATTGCTGTAGGGCCTCATCGGGAGTTTTCATGGCGGGTTTGAACCTCTAGCACGGCACAGTTTG--CGCCAAGTCATATGAA-GTATACCCGACGAGTGACATTATTGTCCCAAAAAGGTGGAGGGGTGGCGTGCTGTTGCATGCGCCAATGAATTTTGATGACTCTCGGCAACGGATATCTTGGCTCTTGCCATCG-ATG-AAGAACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTT-GAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCCTGGGCGTCGTGTGCTACG--TCTCTCCCACCAATGCTTGCTCGGCATATAACTAGGTTGGCATTGTGTGGATGTAAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCTAAGGATTGGTATTTTGATGGCCCGAAACTTGGCAGGAGGTGGA-GTACGCTGGCAGCCGCAAGGCTAACATTCGAAT-CCCCATATTGTCATAGTTGTCGGACTTGTAGAAGAACCTGTTTGAACCCAAATGTAGGCAAAATAACCCTTGGGCGGTTGATTGCCATTCAAATGCGACCCCAGGTCAGGCGGGACCACCCGCTGAGTTTA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||| |||||| |   |||||||||| |||||||||||||||||| |||  ||||| |||| |  | |   | ||| |  |||||||||| | ||| ||| ||||| | |||||||  | ||||||||||||||||||||||| |||| |||||||  ||||||| |||||||| | ||  ||| ||| || |||| |  |||| ||||   |||| || |||||||||| || ||| |||||||||||||||||||||||  |||||  ||||||||||||  ||||| ||| ||| ||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||| ||||||||  | ||| ||  |||||||  ||||||||||| ||||||| | | |||  ||| | ||| |||||| ||||||||||||||||||||||||||||||||||| |||   |||| ||||||||||||| |||  |||| |||||||| | | |||||||||      |||  | | ||||| |||||| ||||| |  |||||||||  | || ||||||  |  |||||| |||| |               ||||||||||  |||||||  ||| ||||||||||||||||||  |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|340742827|gb|JN018077.1|</Hit_id>
+  <Hit_def>Cypripedium plectrochilum 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 26S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>JN018077</Hit_accession>
+  <Hit_len>754</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>682.058</Hsp_bit-score>
+      <Hsp_score>755</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>740</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>751</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>614</Hsp_identity>
+      <Hsp_positive>614</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>762</Hsp_align-len>
+      <Hsp_qseq>AACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTG--TACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACCCGGAGCGGCGGCGTGCTGTCGCGTGC-CCAATGAATTTTGATGACTCTCGCAAACGGGAATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTC--GCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGC-----AGCTGCCGTGCGAATCCCCCATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCCAATGGA---------------GGGCGGTTGACCGCCATTCGGATGTGACCCCAGGTCAGGCGGGGGCACCCGCTGAGTTTACGC</Hsp_qseq>
+      <Hsp_hseq>AACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGTTGAGACAGCATAATAAACGATTGAGTGAATCCGGAGGACCTGTGGCTACTCGGCTCGCTAGTGAGGT-GCTTCTATGGTGACCCTAAATTGCTGTAGGGCCTCATCGGGAGTTTTCATGGCGGGTTTGAACCTCTAGCACGGCACAGTTTG--CGCCAAGTCATATGAA-GTATACCCGACGAGTGACATTATTGTCCCAAAAAGGTGGAGGGGTGGCGTGCTGTTGCATGCGCCAATGAATTTTGATGACTCTCGGCAACGGATATCTTGGCTCTTGCCATCGCT--GAAGAACGCAGCGAAATGCGATTAGTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTT-GAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCCTGGGCGTCGTGTGCTACG--TCTCTCCCACCAATGCTTGCTCGGCATATAACTAGGTTGGCATTGTGTGGATGTAAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCTAAGGATTGGTATTTTGATGGCCCGAAACTTGGCAGGAGGTGGA-GTACGCTGGCAGCCGCAAGGCTAACATTCGAAT-CCCCATATTGTCATAGTTGTCGGACTTGTAGAAGAACCTGTTTGAACCCAAATGTAGGCAAAATAACCCTTGGGCGGTTGATTGCCATTCAAATGCGACCCCAGGTCAGGCGGGACCACCCGCTGAGTTTAAGC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||| |||||| |   |||||||||| |||||||||||||||||| |||  ||||| |||| |  | |   | ||| |  |||||||||| | ||| ||| ||||| | |||||||  | ||||||||||||||||||||||| |||| |||||||  ||||||| |||||||| | ||  ||| ||| || |||| |  |||| ||||   |||| || |||||||||| || ||| |||||||||||||||||||||||  |||||  ||||||||||||  |||||    |||| ||||||||||||||||| ||||||||||||||||  ||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||| ||||||||  | ||| ||  |||||||  ||||||||||| ||||||| | | |||  ||| | ||| |||||| ||||||||||||||||||||||||||||||||||| |||   |||| ||||||||||||| |||  |||| |||||||| | | |||||||||      |||  | | ||||| |||||| ||||| |  |||||||||  | || ||||||  |  |||||| |||| |               ||||||||||  |||||||  ||| ||||||||||||||||||  ||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|350999033|gb|JF796899.1|</Hit_id>
+  <Hit_def>Cypripedium arietinum internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence</Hit_def>
+  <Hit_accession>JF796899</Hit_accession>
+  <Hit_len>720</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>661.319</Hsp_bit-score>
+      <Hsp_score>732</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>679</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>675</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>572</Hsp_identity>
+      <Hsp_positive>572</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>689</Hsp_align-len>
+      <Hsp_qseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTG--TACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACCCGGAGCGGCGGCGTGCTGTCGCGTGC-CCAATGAA-TTTTGATGACTCTCGCAAACGGGAATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTCGCGCTTCGTC-TCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGC-----AGCTGCCGTGCGAATCCCCCATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCCAATGGAGG</Hsp_qseq>
+      <Hsp_hseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGTTGAGACAGTGCAATATACGATTGAGTGAATCCGGAGGACCTGTGATTACTCGGCTCGCC-AGTGATTTGCTTCTGTGGTGATCCTGATTTGCTGTAGGGCCTCCTCGGGAGCTTTCATGGCGGGTTTGAACTTCTAGCACGGCACAGTTT--GTGCCAAGTCATATG-AAGCATCACCGACGAATGGCATTAT-TGTCAGAAAAGTTGGAGGGGTGGCGTGCTGTTGCATGCGCCAATGAATTTTTGATGACTCTCGGCAACGGATATCTTGGCTC-TTGCATC-GAT-GAAGAACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTC-TTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCCTGGGCGTCGTG-TTCTACGTCTCTCCCACCAATGCTTGCTCGGCATATA--CAGGTTGGCATTATGTGGATGTGAAAGGTTGGCCCCTTGTGCCTAGGTGCGGCGGGTCTAAGGATTGGTATTTTGATGGCCCGAAATTTGGCAGGAGGTGGA-GTACTTTGGAAGCCGCAAGGCTGACATTTGAAT-CCCCATATTGTCATAGTTGTCGGACTTGTAGAAGAACCTATTTGAACCCAAATGGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||| |||||| ||| |||| ||||| |||||||||||||||||| |||  ||||| |||| ||  | |  ||||| | ||||||| ||||||||| ||| ||||| |||||||||| | |||||||||||||||| |||||| |||| ||||||  | |||||| |||||| ||||||||||| ||||||||||| | |  |  ||||   |||| || |||||||||| || ||| |||||||| |||||||||||||||  |||||  |||||||||| ||||||| ||| |||| ||||||||||||||||||||||||||||||||||  |||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| | |||  | |||||||  ||||||||||| ||||||| |  ||||  ||| |  || ||||||||||| |||||||||||||||||||||||||||||| |||   |||| ||||||||||||| ||   |||| |||||||| | |   ||| |||      |||| | |  |||| |||||| ||||| |  |||||||||  | || ||||||  |  |||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|380005818|gb|JQ004993.1|</Hit_id>
+  <Hit_def>Cypripedium plectrochilum internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence</Hit_def>
+  <Hit_accession>JQ004993</Hit_accession>
+  <Hit_len>763</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>658.614</Hsp_bit-score>
+      <Hsp_score>729</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>740</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>745</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>611</Hsp_identity>
+      <Hsp_positive>611</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>758</Hsp_align-len>
+      <Hsp_qseq>TCCGTAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTG--TACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGG-CGAATGGCATTGTCTTCCCCAAAACCCGGAGCGGCGGCGTGCTGTCGCGTGC-CCAATGAATTTT-GATGACTCTCGCAAACGGGAATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTC--GCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAG---CCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGC-----AGCTGCCGTGCGAATCCCCCATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCCAATGGA---------------GGGCGGTTGACCGCCATTCGGATGTGACCCCAGGTCAGGCGGGGGCACCCGCTGAGTTTACGC</Hsp_qseq>
+      <Hsp_hseq>TCCGTAGGTGAACCTGCGGAAGGATCATTGTTGAGACAGCATAATATACGATTGAGTGAATCCGGAGGACCTGTGGCTACTCGGCTCGCTAGTGAT-TTGCTTCTATGGTGACCCTAATTTGCTGTAGGGCCTCCTCGGGAGTTTTCATGGCGGGTTTGAACCTCTAGCACGGCACAGTTTG--CGCCAAGTCATATGAA-GTATTACCCGACGAGTGACATTATTGTCAA-AAAAGTTGGAGGGGTGGCGTGCTGTTGCATGCGCCAATGAATTTTTGATGACTCTCGGCAACGGATATCTTGGCTCTT-GCATCG-ATG-AAGAACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTT-GAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCCTGGGCGTCGTGTGCTACG--TCTCTCCCACCAATGCTTGCTCGGCATATTGTGCCTAGGTTGGCATTGTGTGGATGTAAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCTAAGGATTGGTATTTTGATGGCCCGAAACTTGGCAGGAGGTGGA-GTACGCTGGCAGCCGCAAGGCTAACATTCGAAT-CCCCATATTGTCATAGTTGTCGGACTTGTAGAAGAACCTGTTTGAACCCAAATGTAGGCAAAATAACCCTTGGGCGGTTGATTGCCATTCAAATGCGACCCCAGGTCAGGCGGGGCCACCCGCTGAGTTTAAGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||| |||||| |   |||| ||||| |||||||||||||||||| |||  ||||| |||| |  | |   ||||| |  |||||||||| ||||| ||| ||||| |||||||||  | ||||||||||||||||||||||| |||| |||||||  ||||||| |||||||| | || ||| | ||| || |||| |  ||   ||||   |||| || |||||||||| || ||| |||||||||||| |||||||||||  |||||  |||||||||||| |||||| ||| ||| ||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||| ||||||||  | ||| ||  |||||||  ||||||||||| |||||||  |   | |||  ||| | ||| |||||| ||||||||||||||||||||||||||||||||||| |||   |||| ||||||||||||| |||  |||| |||||||| | | |||||||||      |||  | | ||||| |||||| ||||| |  |||||||||  | || ||||||  |  |||||| |||| |               ||||||||||  |||||||  ||| ||||||||||||||||||| ||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|2765656|emb|Z78531.1|</Hit_id>
+  <Hit_def>C.fasciculatum 5.8S rRNA gene and ITS1 and ITS2 DNA</Hit_def>
+  <Hit_accession>Z78531</Hit_accession>
+  <Hit_len>748</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>655.909</Hsp_bit-score>
+      <Hsp_score>726</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>734</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>746</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>619</Hsp_identity>
+      <Hsp_positive>619</Hsp_positive>
+      <Hsp_gaps>48</Hsp_gaps>
+      <Hsp_align-len>764</Hsp_align-len>
+      <Hsp_qseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTG--TACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACC-CGGAGCGGCGGCGTGCTGT--CGCGTGCCCAATGAATTT-TGATGACTCTCGCAAACGGGA-ATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTC--GCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGC-----AGCTGCCGTGCGAATCCCCCATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAA-CCCCAATGGA---------------GGGCGGTTGACCGCCATTCGGATGTGACCCCAGGTCAGGCGGGGGCACCCGCTGAGT</Hsp_qseq>
+      <Hsp_hseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGTTGAGACAGCAGAACATACGATCGAGTGAATCCGGAGGACCCGTGGTTACACGGCTCACCGTGG-CTTTGCTCTCGTGGTGAACCCGGTTTGCGACCGGGCCGCCTCGGGAACTTTCATGGCGGGTTTGAACGTCTAGCGCGGCGCAGTTTG--CGCCAAGTCATATGGA-GCGTCACCGATGGATGGCATTTTTGTCAAGAAAAACTCGGAGGGGCGGCGT-CTGTTGCGCGTGCC-AATGAATTTATGACGACTCTCGGCAACGGGATATCT-GGCTCTT-GCATCG-ATG-AAGAACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAGAATCCCGCGAACCATCGAGTCTTT-GAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCCTGGGCGTCGTGTGCTGCG--TCTCTCCTGATAATGCTTGATTGGCATGCGGCTAGTCTGTCATTGTGAGGACGTGAAAGATTGGCCCCTTGCGCCTAGGTGCGGCGGGTCTAAGCATCGGTGTTCTGATGGCCCGGAACTTGGCAGTAGGTGGA-GGATGCTGGCAGCCGCAAGGCTGCCGTTCGAATCCCCCGTGTTGTCGTACTCGTCAGGCCTACAGAAGAACCTGTTTGAACCCCCAGTGGACGCAAAACCGCCCTCGGGCGG-TGATTTCCATTCAGATGCGACCCCA-GTCAGGC-GGGCCACCCG-TGAGT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||| |||||| |  ||| | |||||||||||||||||||||||| |||  ||| | |||||||| || | |||||| |||||||| || | ||||     |||||||||||||| | | |||||||||||||||| |||||| ||||||||||||  ||||||| |||||| | || ||||||  | |||||||| |  ||   |||| | ||||| |||||||| ||||  |||||||| ||||||||| ||| ||||||||  ||||||| |||| ||||||| |||||| ||| ||| ||||||||||||||||||||||||||||||||||  |||||| |||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||| ||||||||  | ||| ||  |||||||||  ||||||||   ||||| | || || | | | | ||| ||| ||||||||||||||||||| |||||||||||||||||| |||    |||||| ||||||||||||||  ||||  ||||||| |||||||||||||      |||||||| |||||||||| ||||||||| || ||| | |   ||| ||||||  |  ||| ||||| ||||               |||||| |||   |||||| |||| ||||||| ||||||| ||| |||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|751868570|gb|KJ939534.1|</Hit_id>
+  <Hit_def>Cypripedium subtropicum voucher Szlachetko s.n. 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KJ939534</Hit_accession>
+  <Hit_len>772</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>647.794</Hsp_bit-score>
+      <Hsp_score>717</Hsp_score>
+      <Hsp_evalue>1.17352e-180</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>740</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>762</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>613</Hsp_identity>
+      <Hsp_positive>613</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>771</Hsp_align-len>
+      <Hsp_qseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTG--TACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACCCGGAGCGGCGGCGTGCTGTCGCGTGC-CCAATGAA-TTTTGATGACTCTCGCAAACGGGAATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTCGCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCA---GCA--GCTGCCGTGCGAATCCCCCATGTTGTCGTGCTTGTCGGACAGGCAG--GAGAACCCTTCCGAACCCCAATGGA--------------------GGGCGGTTGACCGCCATTCGGATGTGACCCCAGGTCAGGCGGGGGCACCCGCTGAGTTTACGC</Hsp_qseq>
+      <Hsp_hseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGTTGAGACCGCATAATATATGATCGAGTAAATCCAGAGGACCTGTGGTTACTCGGCTCGCCGGGGGTTTTTCTTTCGTGGTGACC-TGATTTGCCATAGGGCCTCCTCGAGAGCTTTCAAGGCGGGTTTGAACCTCTAATACGGCGCGGTTTG--CGCCAAGTCATATTGAAGCATCACCAATTAATGACTTTATTGTCAG-AAAAGTTGGAGAGGTGGCATGCTGTTGCGCATACCAATGAACTTTTGATGACTCTCGACAACGGATATCTTGGCTCTT-GCATCG-ATG-AAGAACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTT-GAACGCAAGTTGCGCCCAAAGCCATCAGGCTAAGGGCACGCCTGCCTGGGCGTTGTGTGCTCTGTCTCTCCTGCCAAGGCTTTCCTAGCATATAGTTAGGCTGGCATTGTGCGGATGTGAAAGATTGGCCCCTTGTGCTTAGGTGTGGTGGGTCTAAGGATTAGTGTTTTGATGGCCCGTAACCTGGCAGGAGGTGGA-GGATGCTAGCAGTCGCAATGCTGTTGTTCGGATCCCCCATGTTGTCTTATTTGTCGGGCCCACAGAAGGGAACCTATTTGAACCCCAATGAAGGCAAAATGACCCTTGGGCGGGGCGGCTGATTGCCATTTAGATGCGACCCCAGGTCAGGCGGGGCCACCCGCTGAGTTTAAGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||| ||||||||   |||| | |||||||| ||||| ||||||| |||  ||||| |||| |||||||  || ||  |||||||||| |||||||   | ||||| ||||| |||| | || ||||||||||||||||||   |||||| |||||  ||||||| |||||  ||||||||||    |||| | || |  ||   ||||   |||| || ||| |||||| |||    |||||||| |||||||||||||||  |||||  |||||||||||| |||||| ||| ||| ||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||| ||||||||||||||||| | ||||||||||||||||||||||||| ||||||| | |     | ||||||||||||| |||| ||  ||||| ||  |||| ||| | |||||||||||||||||||||||||||||| |||||| || ||||| |||   | |||||||||||||||| |||| |||| |||||||| ||||||| |||   |||  ||||  || || ||||||||||||||| |  ||||||| |   |||  | |||||  |  ||||||||||| |                    |||||| |||  ||||||  |||| ||||||||||||||||||| ||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|350999061|gb|JF796927.1|</Hit_id>
+  <Hit_def>Cypripedium fasciculatum internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence</Hit_def>
+  <Hit_accession>JF796927</Hit_accession>
+  <Hit_len>724</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>644.187</Hsp_bit-score>
+      <Hsp_score>713</Hsp_score>
+      <Hsp_evalue>1.42964e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>671</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>671</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>567</Hsp_identity>
+      <Hsp_positive>567</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>685</Hsp_align-len>
+      <Hsp_qseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTG--TACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACC-CGGAGCGGCGGCGTGCTGT--CGCGTGCCCAATGAATTT-TGATGACTCTCGCAAACGGGA-ATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTC--GCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGC-----AGCTGCCGTGCGAATCCCCCATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCC</Hsp_qseq>
+      <Hsp_hseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGTTGAGACAGCAGAACATACGATCGAGTGAATCCGGAGGACCCGTGGTTACACGGCTCACCGTGG-CTTTGCTCTCGTGGTGAACCCGGTTTGCGACCGGGCCGCCTCGGGAACTTTCATGGCGGGTTTGAACGTCTAGCGCGGCGCAGTTTG--CGCCAAGTCATATGGA-GCGTCACCGATGGATGGCATTTTTGTCAAGAAAAACTCGGAGGGGCGGCGT-CTGTTGCGCGTGCC-AATGAATTTATGACGACTCTCGGCAACGGGATATCT-GGCTCTT-GCATCG-ATG-AAGAACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAGAATCCCGCGAACCATCGAGTCTTT-GAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCCTGGGCGTCGTGTGCTGCG--TCTCTCCTGATAATGCTTGATTGGCATGCGGCTAGTCTGTCATTGTGAGGACGTGAAAGATTGGCCCCTTGCGCCTAGGTGCGGCGGGTCTAAGCATCGGTGTTCTGATGGCCCGGAACTTGGCAGTAGGTGGA-GGATGCTGGCAGCCGCAAGGCTGCCGTTCGAATCCCCCGTGTTGTCGTACTCGTCAGGCCTACAGAAGAACCTGTTTGAACCCC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||| |||||| |  ||| | |||||||||||||||||||||||| |||  ||| | |||||||| || | |||||| |||||||| || | ||||     |||||||||||||| | | |||||||||||||||| |||||| ||||||||||||  ||||||| |||||| | || ||||||  | |||||||| |  ||   |||| | ||||| |||||||| ||||  |||||||| ||||||||| ||| ||||||||  ||||||| |||| ||||||| |||||| ||| ||| ||||||||||||||||||||||||||||||||||  |||||| |||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||| ||||||||  | ||| ||  |||||||||  ||||||||   ||||| | || || | | | | ||| ||| ||||||||||||||||||| |||||||||||||||||| |||    |||||| ||||||||||||||  ||||  ||||||| |||||||||||||      |||||||| |||||||||| ||||||||| || ||| | |   ||| ||||||  |  |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|350999058|gb|JF796924.1|</Hit_id>
+  <Hit_def>Cypripedium wardii internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence</Hit_def>
+  <Hit_accession>JF796924</Hit_accession>
+  <Hit_len>726</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>639.679</Hsp_bit-score>
+      <Hsp_score>708</Hsp_score>
+      <Hsp_evalue>1.74166e-178</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>709</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>726</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>593</Hsp_identity>
+      <Hsp_positive>593</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>737</Hsp_align-len>
+      <Hsp_qseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTG--TACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCC-TCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACCCGGAGCGGCGGCGTGCTGTCGCGTGC---CCAATGAATTTTG-ATGACTCTCGCAAACGGGAATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTCGCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCT---GGCAGCA--GCTGCCGTGCGAATCCCCCATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAACC-CCAATGGAGG---------------GCGGTTGACCGCCATTCGGATGTGACCCCA</Hsp_qseq>
+      <Hsp_hseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGTTGAGACCGCATACAATACGATCGAGTGAATCCAGAGGACCTGTGGTTACTCGGCTCGCCGGGGGCTTTTCTTTTGTGGTGACC-TGATTTGCTGTTGGGTCTCCCTCGAGAGCTTTCATGGTGGGTTTGAACCTCTAGCACGGCGCAGTTTG--CGCCAAGTCATATGCAGGCATCACCGACGAATGACATTATTGTCAG-AAAAGTCGGACAAGTGGCATGCTGTTG--TGCATACCAATGAATTTTTTATGACTCTCGACAACGGATATCTTGGCTCTT-GCATCG-ATG-AAGAACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTT-GAACGCAAGTTGCGCCCGAGGCCATCTGGCTAAGGGCACGCCTGCCTGGGTGTTGTGTGCTCTATCTCTCCTGCCAAGGCTTTCCTGGCATATAGTTAAGTCGGTATTGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGTGGGTCTAAGGATTGGTGTTTTGATGGCTCGAAACCTGGCTGGAGGTGGA-GGATGCTAGCGGCCGCAAGGTTGTTGTTCGAATCCCCCATGTTGTCAGATTTGTCGGGCCTACAGAAGAACCTATTTGAACCTCAAATGGAGGCAAAATGACCCTTGTGCGGTTGATTGCCATTCAGATGCGACCCCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||| ||||||||   |  | |||||||||||||||| ||||||| |||  ||||| |||| |||||||| || ||   ||||||||| ||||||| ||||||| | || ||| |||| | ||||| ||||||||||||||||| ||||||||||||  ||||||| |||||| | ||||||||| |||||| |||| |  ||   ||||  ||||   | ||| |||||| |  |||   ||||||||||||  ||||||||||  |||||  |||||||||||| |||||| ||| ||| ||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||| |||||||||||||||||||||||||| |||||||||||||||||| |||| || | |     | ||||||||||||| |||| || |||||| ||  | | |||  | |||||||||||||||||||||||||||||||||||||||| ||||| |||   ||||||||||||||| || |||| |||  |||||||| |||||||   ||| |||  | ||  || ||||||||||||||||||    ||||||| |   ||| ||||||  |  ||||| | ||||||||               ||||||||  ||||||| |||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|2765645|emb|Z78520.1|</Hit_id>
+  <Hit_def>C.segawai 5.8S rRNA gene and ITS1 and ITS2 DNA</Hit_def>
+  <Hit_accession>Z78520</Hit_accession>
+  <Hit_len>753</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>638.777</Hsp_bit-score>
+      <Hsp_score>707</Hsp_score>
+      <Hsp_evalue>6.07899e-178</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>736</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>753</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>609</Hsp_identity>
+      <Hsp_positive>609</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>764</Hsp_align-len>
+      <Hsp_qseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTG--TACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACCCGGAGCGGCGGCGTGCTGTCGCGTGCC--CAAT-GAAT-TTTGATGACTCTCGCAAACGGGAATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAAT-GCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTC--GCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGC-----AGCTGCCGTGCGAATCCCCCATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCCAATGGA--------------GGGCGGTTGACCGCCATTCGGATGTGACCCCAGGTCAGGCGGGGGCACCCGCTGAGTTT</Hsp_qseq>
+      <Hsp_hseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGTTGAGACAGCAGAATATATGATCGAGTGAATCCGGTGGACTTGTGGTTACTCAGCTCGCCATAGGCTTTGCTTTTGCGGTGACCCTAATTTGTCATTGGGCCTCCTCCAAAGCTTTCCTTGTGGGTTTGAACCTCTAGCACGGTGCAGTATG--CGCCAAGTCATATGAAT-CATCACCGATGAATGACATTATTGTCCA-AAAAGTTGGAGTAGAAGCGTGCTATTGCATGCATGCAATAGAATATTTTATGACTCTCGACAAGGGATATCTTGGCTCTT-GCATCGGATG-AAGAACGCAGCGAAATTGTGATAAGTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTATGT-GAACGCAAGTTGCGCCCGATGCCATCAGGCTAAGGGCACGCCTGCCTGGGCGTCGTGTGCTGCG--TCTCTCCTGTCAATGCTTTCCTGTCATATCGATAGGTTTGCATTGTGTGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGTGGGTCTAAGGACTAGTGTTTTGATGGTTCGAAACCTGGCAGGAGGTGGA-GGATGTTGGCAGCTATAAGGTTGTCATGTGAATCCCCCATATTGTCGTGTTTGTCGGACCTGGAGAAGAACCTGTTTGAATCCCAATGGAGGCAAACAACCCTCGGGCGGTTGATTGCCATTCATATGCGACCCCAGGTCAGGC-GGGCCACCCGCTGAGTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||| |||||| |  ||||| | |||||||||||||||| ||||  |||  |||||||||| ||   ||| |||||   | ||||||||| ||||||  ||||||| ||||   ||| | | | | ||||||||||||||||| ||| ||||| ||  ||||||| ||||||||  ||||||||  ||||| |||| |  |||  ||||   ||||  |  ||||||| | || |||   |||| |||| ||| ||||||||||  || ||  |||||||||||| |||||||||| ||| |||||||||||| | ||||||||||||||||||||  ||||||||||||||||||| | | ||||||||||||||||||| ||||||||||||||||||||||||| ||||||||  | ||| ||  ||||||||| |||||||| || | ||||  |  |||   || | ||| |||||||||||||||||||||||||||||||||||| ||||| |||  || ||||||||||||  || |||| |||| |||||||| ||||| |||||||      | || | || ||||||||||| |||||||| |||||||||  | || ||||||  |  ||| |||||||||              ||||||||||  |||||||  ||| ||||||||||||||| ||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1382343100|gb|MH250186.1|</Hit_id>
+  <Hit_def>Cypripedium calceolus isolate R2 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MH250186</Hit_accession>
+  <Hit_len>784</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>637.875</Hsp_bit-score>
+      <Hsp_score>706</Hsp_score>
+      <Hsp_evalue>6.07899e-178</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>740</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>762</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>610</Hsp_identity>
+      <Hsp_positive>610</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>768</Hsp_align-len>
+      <Hsp_qseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTG--TACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACCCGGAGCGGCGGCGTGCTGTCGCGTGC---CCAATGAATTTTG-ATGACTCTCGCAAACGGGAATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTC--GCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGC-----AGCTGCCGTGCGAATCCCCC-ATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCCAATGGA--------------GGGCGGTTGACCGCCATTCGGATGTGACCCCAGGTCAGGCGGGGGCACCCGCTGAGTTTACGC</Hsp_qseq>
+      <Hsp_hseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGTTGAGACAGCAGAATATATGATCGAGTGAATCCGGTGGACTTGTGGTTACTCAGCTCGACATAGGCTTTGCTTTTGCGGTGACCCTAATTTGCCATTGGGCCTCCTCCAAAGCTTTCCTTGTGGGTTTGAACCTCTAGCACGGCGCAGTATG--CGCCAAGTCATATGAA-GCATCACCGATGAATGACATTATTGTCA--AAAAGTTGGAGTGGAAGCGTGCTATTGCATGCATGCAAATGAATTTTTTATGACTCTCGACAACGGATATCTTGGCTCTT-GCATCG-ATG-AAGAACGCAGCAAAATGCGATAAGTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTT-GAACGCAAGTTGCGCCCGATGCCATCAGGCTAAGGGCACGCCTGCCTGGGCGTCGTGTGCTGCG--TCTCTCCTGTCAATGCTTTCATGTCATATAGATAGGTTTGCATTGCGTGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGTGGGTCTAAGGACTAGTGTTTTGATGGTTCGAAACCTGGCAGGAGGTGGA-GGATGTTGGCAGCTATAAGGCTATCATTTGAATCCCCCAATATTGTCGTGTTTGTCGGACCTAGAGAAAAACATGTTTGAATCCCAATGGAGGCAAACAACTCTCGGGCGGTTGATTGCCATTCATATGCGACCCCAGGTCAGGCGGGGCCACCCGCTGAGTTTAAGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||| |||||| |  ||||| | |||||||||||||||| ||||  |||  ||||||||||  |   ||| |||||   | ||||||||| |||||   ||||||| ||||   ||| | | | | ||||||||||||||||| ||||||||| ||  ||||||| |||||||| |||||||||  ||||| |||| |  ||   ||||   |||| ||  ||||||| | || |||   | ||||||||||  ||||||||||  |||||  |||||||||||| |||||| ||| ||| ||||||| ||||||||||||||||||||||||||  ||||||||||||||||||||||| ||||||||||||||||||| ||||||||||||||||||||||||| ||||||||  | ||| ||  ||||||||| |||||||| |  | |||| ||  |||   || | | | |||||||||||||||||||||||||||||||||||| ||||| |||  || ||||||||||||  || |||| |||| |||||||| ||||| |||||||      |||  | |  ||||||||| || |||||||| |||||||||    || | |||   |  ||| |||||||||              ||||||||||  |||||||  ||| ||||||||||||||||||| ||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1434743038|gb|MF543769.1|</Hit_id>
+  <Hit_def>Cypripedium calceolus voucher CYCAOL02-210813 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MF543769</Hit_accession>
+  <Hit_len>850</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>637.875</Hsp_bit-score>
+      <Hsp_score>706</Hsp_score>
+      <Hsp_evalue>6.07899e-178</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>740</Hsp_query-to>
+      <Hsp_hit-from>68</Hsp_hit-from>
+      <Hsp_hit-to>823</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>610</Hsp_identity>
+      <Hsp_positive>610</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>768</Hsp_align-len>
+      <Hsp_qseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTG--TACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACCCGGAGCGGCGGCGTGCTGTCGCGTGC---CCAATGAATTTTG-ATGACTCTCGCAAACGGGAATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTC--GCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGC-----AGCTGCCGTGCGAATCCCCC-ATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCCAATGGA--------------GGGCGGTTGACCGCCATTCGGATGTGACCCCAGGTCAGGCGGGGGCACCCGCTGAGTTTACGC</Hsp_qseq>
+      <Hsp_hseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGTTGAGACAGCAGAATATATGATCGAGTGAATCCGGTGGACTTGTGGTTACTCAGCTCGACATAGGCTTTGCTTTTGCGGTGACCCTAATTTGCCATTGGGCCTCCTCCAAAGCTTTCCTTGTGGGTTTGAACCTCTAGCACGGCGCAGTATG--CGCCAAGTCATATGAA-GCATCACCGATGAATGACATTATTGTCA--AAAAGTTGGAGTGGAAGCGTGCTATTGCATGCATGCAAATGAATTTTTTATGACTCTCGACAACGGATATCTTGGCTCTT-GCATCG-ATG-AAGAACGCAGCAAAATGCGATAAGTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTT-GAACGCAAGTTGCGCCCGATGCCATCAGGCTAAGGGCACGCCTGCCTGGGCGTCGTGTGCTGCG--TCTCTCCTGTCAATGCTTTCATGTCATATAGATAGGTTTGCATTGCGTGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGTGGGTCTAAGGACTAGTGTTTTGATGGTTCGAAACCTGGCAGGAGGTGGA-GGATGTTGGCAGCTATAAGGCTATCATTTGAATCCCCCAATATTGTCGTGTTTGTCGGACCTAGAGAAAAACATGTTTGAATCCCAATGGAGGCAAACAACTCTCGGGCGGTTGATTGCCATTCATATGCGACCCCAGGTCAGGCGGGGCCACCCGCTGAGTTTAAGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||| |||||| |  ||||| | |||||||||||||||| ||||  |||  ||||||||||  |   ||| |||||   | ||||||||| |||||   ||||||| ||||   ||| | | | | ||||||||||||||||| ||||||||| ||  ||||||| |||||||| |||||||||  ||||| |||| |  ||   ||||   |||| ||  ||||||| | || |||   | ||||||||||  ||||||||||  |||||  |||||||||||| |||||| ||| ||| ||||||| ||||||||||||||||||||||||||  ||||||||||||||||||||||| ||||||||||||||||||| ||||||||||||||||||||||||| ||||||||  | ||| ||  ||||||||| |||||||| |  | |||| ||  |||   || | | | |||||||||||||||||||||||||||||||||||| ||||| |||  || ||||||||||||  || |||| |||| |||||||| ||||| |||||||      |||  | |  ||||||||| || |||||||| |||||||||    || | |||   |  ||| |||||||||              ||||||||||  |||||||  ||| ||||||||||||||||||| ||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|751868566|gb|KJ939530.1|</Hit_id>
+  <Hit_def>Cypripedium macranthos voucher Szlachetko s.n. 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KJ939530</Hit_accession>
+  <Hit_len>766</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>637.875</Hsp_bit-score>
+      <Hsp_score>706</Hsp_score>
+      <Hsp_evalue>6.07899e-178</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>740</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>756</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>610</Hsp_identity>
+      <Hsp_positive>610</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>768</Hsp_align-len>
+      <Hsp_qseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTG--TACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACCCGGAGCGGCGGCGTGCTGTCGCGTGC---CCAATGAATTTTG-ATGACTCTCGCAAACGGGAATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTC--GCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGC-----AGCTGCCGTGCGAATCCCCC-ATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCCAATGG--------------AGGGCGGTTGACCGCCATTCGGATGTGACCCCAGGTCAGGCGGGGGCACCCGCTGAGTTTACGC</Hsp_qseq>
+      <Hsp_hseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGTTGAGACAGCAGAATATATGATCGAGTGAATCCGGTGGACTTGTGGTTACTCAGCTCGACATAGGCTTTGCTTTTGCGGTGACCCTAATTTGTCATTGGGCCTCCTCCAAAGCTTTCCTTGTGGGTTTGAACCTCTAGCACGGTGCAGTATG--CGCCAAGTCATATGAA-GCATCACTGATGAATGACATTATTGTCA--AAAAGTTGGAGTGGAAGCGTGCTATTGCATGCATGCAAATGAATTTTTTATGACTCTCGACAACGGATATCTTGGCTCTT-GCATCG-ATG-AAGAACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTT-GAACGCAAGTTGCGCCCGATGCCATCAGGCTAAGGGCACGCCTGCCTGGGCGTCGTGTGCTGCG--TCTCTCCTGTCAATGCTTTCGTATCATATAGACAGGTTTGCATTGCGTGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGTGGGTCTAAGGACTAGTGTTTTGATGGTTCGAAACCTGGCAGGAGGTGGA-GGATGTTGGCAGCTATAAGGCTATCATTTGAATCCCCCAATATTGTCGTGTTTGTCGGACCTAGAGAAGAACATGTTTGAATCCCAATGGGGGCAAACAACCCTCGGGCGGTTGATTGCCATTCATATGCGACCCCAGGTCAGGCGGGGCCACCCGCTGAGTTTAAGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||| |||||| |  ||||| | |||||||||||||||| ||||  |||  ||||||||||  |   ||| |||||   | ||||||||| ||||||  ||||||| ||||   ||| | | | | ||||||||||||||||| ||| ||||| ||  ||||||| |||||||| ||||||| |  ||||| |||| |  ||   ||||   |||| ||  ||||||| | || |||   | ||||||||||  ||||||||||  |||||  |||||||||||| |||||| ||| ||| ||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||| ||||||||||||||||||| ||||||||||||||||||||||||| ||||||||  | ||| ||  ||||||||| |||||||| |    |||| || ||||   || | | | |||||||||||||||||||||||||||||||||||| ||||| |||  || ||||||||||||  || |||| |||| |||||||| ||||| |||||||      |||  | |  ||||||||| || |||||||| |||||||||    || |||||   |  ||| ||||||||               ||||||||||  |||||||  ||| ||||||||||||||||||| ||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|751868569|gb|KJ939533.1|</Hit_id>
+  <Hit_def>Cypripedium farreri voucher Szlachetko s.n. 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KJ939533</Hit_accession>
+  <Hit_len>766</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>635.17</Hsp_bit-score>
+      <Hsp_score>703</Hsp_score>
+      <Hsp_evalue>7.40573e-177</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>740</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>756</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>607</Hsp_identity>
+      <Hsp_positive>607</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>766</Hsp_align-len>
+      <Hsp_qseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTG--TACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACCCGGAGCGGCGGCGTGCTGTCGCGTGC---CCAATGAATTTTG-ATGACTCTCGCAAACGGGAATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTCGCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGC-----AGCTGCCGTGCGAATCCCCC-ATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCCAATGGA--------------GGGCGGTTGACCGCCATTCGGATGTGACCCCAGGTCAGGCGGGGGCACCCGCTGAGTTTACGC</Hsp_qseq>
+      <Hsp_hseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGTTGAGACAGCAGAATATATGATCGAGTGAATCCGGTGGACTTGTGGTTACTCAGCTCAACATAGGCTTTGCTTTTGCGGTGACCCTAATTTGTCATTGGGCCTCCTCCAAAGCTTTCCTTGTGGGTTTGAACCTCTAGCACGGTGCAGTATG--CGCCAAGTCATATGAA-GCATCGCTGATGAATGACATTATTGTCA--AAAAGTTGGAGTGGAAGCGTGCTATTGCATGCATGCAAATGATTTTTTTATGACTCTCGACAACGGATATCTTGGCTCTT-GCATCG-ATG-AAGAACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTT-GAACGCAAGTTGCGCCCGATGCCATCAGGCTAAGGGCACGCCTGCCTGGGCGTCGTGTGATGCGTCTCTCCTGTCAATGCTTTCGTATCATATAGATAGGTTTGCATTGCGTGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGTGGGTCTAAGGACTAGTGTTTTGATGGTTCGAAACCTGGCAGGAGGTGGA-GGATGTTGGCAGCTATAAGGCTATCATTTGAATCCCCCAATATTGTCGTGTTTGTCGGACCTAGAGAAGAACCTGTTTGAATCCCAATGGAGGCAAACAACCCTCGGGCGGTTGATTGCCATTCATATGCGACCCCAGGTCAGGCGGGGCCACCCGCTGAGTTTAAGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||| |||||| |  ||||| | |||||||||||||||| ||||  |||  ||||||||||| |   ||| |||||   | ||||||||| ||||||  ||||||| ||||   ||| | | | | ||||||||||||||||| ||| ||||| ||  ||||||| |||||||| ||||| | |  ||||| |||| |  ||   ||||   |||| ||  ||||||| | || |||   | ||||| ||||  ||||||||||  |||||  |||||||||||| |||||| ||| ||| ||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||| ||||||||||||||||||| ||||||||||||||||||||||||| ||||||||| |    |  ||||||||| |||||||| |    |||| ||  |||   || | | | |||||||||||||||||||||||||||||||||||| ||||| |||  || ||||||||||||  || |||| |||| |||||||| ||||| |||||||      |||  | |  ||||||||| || |||||||| |||||||||    || ||||||  |  ||| |||||||||              ||||||||||  |||||||  ||| ||||||||||||||||||| ||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1434743037|gb|MF543768.1|</Hit_id>
+  <Hit_def>Cypripedium calceolus voucher CYCACM06-010813 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MF543768</Hit_accession>
+  <Hit_len>851</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>635.17</Hsp_bit-score>
+      <Hsp_score>703</Hsp_score>
+      <Hsp_evalue>7.40573e-177</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>740</Hsp_query-to>
+      <Hsp_hit-from>69</Hsp_hit-from>
+      <Hsp_hit-to>824</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>609</Hsp_identity>
+      <Hsp_positive>609</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>768</Hsp_align-len>
+      <Hsp_qseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTG--TACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACCCGGAGCGGCGGCGTGCTGTCGCGTGC---CCAATGAATTTTG-ATGACTCTCGCAAACGGGAATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTC--GCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGC-----AGCTGCCGTGCGAATCCCCC-ATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCCAATGGA--------------GGGCGGTTGACCGCCATTCGGATGTGACCCCAGGTCAGGCGGGGGCACCCGCTGAGTTTACGC</Hsp_qseq>
+      <Hsp_hseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGTTGAGACAGCAGAATATATGATCGAGTGAATCCGGTGGACTTGTGGTTACTCAGCTCGACATAGGCTTTGCTTTTGCGGTGACCCTAATTTGCCATTGGGCCTCCTCCAAAGCTTTCCTTGTGGGTTTGAACCTCTAGCACGGYGCAGTATG--CGCCAAGTCATATGAA-GCATCACCGATGAATGACATTATTGTCA--AAAAGTTGGAGTGGAAGCGTGCTATTGCATGCATGCAAATGAATTTTTTATGACTCTCGACAACGGATATCTTGGCTCTT-GCATCG-ATG-AAGAACGCAGCAAAATGCGATAAGTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTT-GAACGCAAGTTGCGCCCGATGCCATCAGGCTAAGGGCACGCCTGCCTGGGCGTCGTGTGCTGCG--TCTCTCCTGTCAATGCTTTCATGTCATATAGATAGGTTTGCATTGCGTGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGTGGGTCTAAGGACTAGTGTTTTGATGGTTCGAAACCTGGCAGGAGGTGGA-GGATGTTGGCAGCTATAAGGCTATCATTTGAATCCCCCAATATTGTCGTGTTTGTCGGACCTAGAGAAAAACATGTTTGAATCCCAATGGAGGCAAACAACTCTCGGGCGGTTGATTGCCATTCATATGCGACCCCAGGTCAGGCGGGGCCACCCGCTGAGTTTAAGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||| |||||| |  ||||| | |||||||||||||||| ||||  |||  ||||||||||  |   ||| |||||   | ||||||||| |||||   ||||||| ||||   ||| | | | | ||||||||||||||||| ||| ||||| ||  ||||||| |||||||| |||||||||  ||||| |||| |  ||   ||||   |||| ||  ||||||| | || |||   | ||||||||||  ||||||||||  |||||  |||||||||||| |||||| ||| ||| ||||||| ||||||||||||||||||||||||||  ||||||||||||||||||||||| ||||||||||||||||||| ||||||||||||||||||||||||| ||||||||  | ||| ||  ||||||||| |||||||| |  | |||| ||  |||   || | | | |||||||||||||||||||||||||||||||||||| ||||| |||  || ||||||||||||  || |||| |||| |||||||| ||||| |||||||      |||  | |  ||||||||| || |||||||| |||||||||    || | |||   |  ||| |||||||||              ||||||||||  |||||||  ||| ||||||||||||||||||| ||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1382343101|gb|MH250187.1|</Hit_id>
+  <Hit_def>Cypripedium calceolus isolate R3 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MH250187</Hit_accession>
+  <Hit_len>819</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>635.17</Hsp_bit-score>
+      <Hsp_score>703</Hsp_score>
+      <Hsp_evalue>7.40573e-177</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>740</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>797</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>608</Hsp_identity>
+      <Hsp_positive>608</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>768</Hsp_align-len>
+      <Hsp_qseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTG--TACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACCCGGAGCGGCGGCGTGCTGTCGCGTGC---CCAATGAATTTTG-ATGACTCTCGCAAACGGGAATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTC--GCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGC-----AGCTGCCGTGCGAATCCCCC-ATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCCAATGGA--------------GGGCGGTTGACCGCCATTCGGATGTGACCCCAGGTCAGGCGGGGGCACCCGCTGAGTTTACGC</Hsp_qseq>
+      <Hsp_hseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGTTGAGACAGCAGAATATATGATCGAGTGAATCCGGTGGACTTGTGGTTACTCAGCTCGACATAGGCTTTGCTTTTGCGGTGACCCTAATTTGCCATTGGGCCTCCTCCAAAGCTTTCCTTGTGGGTTTGAACCTCTAGCACGGYGCAGTATG--CGCCAAGTCATATGAA-GCATCACCGATGAATGACATTATTGTCA--AAAAGTTGGAGTGGAAGCGTGCTATTGCATGCATGCAAATGAATTTTTTATGACTCTCGACAACGGATATCTTGGCTCTT-GCATCG-ATG-AAGAACGCAGCAAAATGCGATAAGTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTT-GAACGCAAGTTGCGCCCGATGCCATCAGGCTAAGGGCACGCCTGCCTGGGCGTCGTGTGCTGCG--TCTCTCCTGTCAATGCTTTCATGTCATATAGATAGGTTTGCATTGCGTGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGTGGGTCTAAGGACTAGTGTTTTGATGGTTCGAAACCTGGCAGGAGGTGGNAGGATGTTGGCAGCTATAAGGCTATCATTTGAATCCCCCAATATTGTCGTGTTTGTCGGACCTAGAGAAAAACATGTTTGAATCCCAATGGAGGCAAACAACTCTCGGGCGGTTGATTGCCATTCATATGCGACCCCAGGTCAGGCGGGGCCACCCGCTGAGTTTAAGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||| |||||| |  ||||| | |||||||||||||||| ||||  |||  ||||||||||  |   ||| |||||   | ||||||||| |||||   ||||||| ||||   ||| | | | | ||||||||||||||||| ||| ||||| ||  ||||||| |||||||| |||||||||  ||||| |||| |  ||   ||||   |||| ||  ||||||| | || |||   | ||||||||||  ||||||||||  |||||  |||||||||||| |||||| ||| ||| ||||||| ||||||||||||||||||||||||||  ||||||||||||||||||||||| ||||||||||||||||||| ||||||||||||||||||||||||| ||||||||  | ||| ||  ||||||||| |||||||| |  | |||| ||  |||   || | | | |||||||||||||||||||||||||||||||||||| ||||| |||  || ||||||||||||  || |||| |||| |||||||  ||||| |||||||      |||  | |  ||||||||| || |||||||| |||||||||    || | |||   |  ||| |||||||||              ||||||||||  |||||||  ||| ||||||||||||||||||| ||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|49425161|gb|AY557232.1|</Hit_id>
+  <Hit_def>Cypripedium calceolus 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 26S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>AY557232</Hit_accession>
+  <Hit_len>983</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>635.17</Hsp_bit-score>
+      <Hsp_score>703</Hsp_score>
+      <Hsp_evalue>7.40573e-177</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>740</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>891</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>612</Hsp_identity>
+      <Hsp_positive>612</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>770</Hsp_align-len>
+      <Hsp_qseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTG--TACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACCCGGAGCGGCGGCGTGCTGTCGCGTGC---CCAATGAATTTTG-ATGACTCTCGCAAACGGGAATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTC--GCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGC-----AGCTGCCGTGCGAATCCCCC-ATGTTGTCGTGCTTGTCGGAC--AGGCAGGAGAACCCTTCCGAACCCCAATGGA--------------GGGCGGTTGACCGCCATTCGGATGTGACCCCAGGTCAGGCGGGGGCACCCGCTGAGTTTACGC</Hsp_qseq>
+      <Hsp_hseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGTTGAGACAGCAGAATATATGATCGAGTGAATCCGGTGGACTTGTGGTTACTCAGCTCGACATAGGCTTTGCTTTTGCGGTGACCCTAATTTGCCATTGGGCCTCCTCCAAAGCTTTCCTTGTGGGTTTGAACCTCTAGCACGGCGCAGTATG--CGCCAAGTCATATGAA-GCATCACCGATGAATGACATTATTGTCA--AAAAGTTGGAGTGGAAGCGTGCTATTGCATGCATGCAAATGAATTTTTTATGACTCTCGACAACGGATATCTTGGCTCTT-GCATCG-ATG-AAGAACGCAGCAAAATGCGATAAGTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTT-GAACGCAAGTTGCGCCCGATGCCATCAGGCTAAGGGCACGCCTGCCTGGGCGTCGTGTGCTGCG--TCTCTCCTGTCAATGCTTTCATGTCATATAGATAGGTTTGCATTGCGTGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGTGGGTCTAAGGACTAGTGTTTTGATGGTTCGAAACCTGGCAGGAGGTGGA-GGATGTTGGCAGCTATAAGGCTATCATTTGAATCCCCCAATATTGTCGTGTTTGTCGGACCTATG-AGAAAAACATGTTTGAATCCCAATGGAGGCAAACAACTCTCGGGCGGTTGATTGCCATTCATATGCGACCCCAGGTCAGGCGGGGCCACCCGCTGAGTTTAAGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||| |||||| |  ||||| | |||||||||||||||| ||||  |||  ||||||||||  |   ||| |||||   | ||||||||| |||||   ||||||| ||||   ||| | | | | ||||||||||||||||| ||||||||| ||  ||||||| |||||||| |||||||||  ||||| |||| |  ||   ||||   |||| ||  ||||||| | || |||   | ||||||||||  ||||||||||  |||||  |||||||||||| |||||| ||| ||| ||||||| ||||||||||||||||||||||||||  ||||||||||||||||||||||| ||||||||||||||||||| ||||||||||||||||||||||||| ||||||||  | ||| ||  ||||||||| |||||||| |  | |||| ||  |||   || | | | |||||||||||||||||||||||||||||||||||| ||||| |||  || ||||||||||||  || |||| |||| |||||||| ||||| |||||||      |||  | |  ||||||||| || |||||||| |||||||||  | | || | |||   |  ||| |||||||||              ||||||||||  |||||||  ||| ||||||||||||||||||| ||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|751868571|gb|KJ939535.1|</Hit_id>
+  <Hit_def>Cypripedium tibeticum voucher Szlachetko s.n. 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KJ939535</Hit_accession>
+  <Hit_len>766</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>633.367</Hsp_bit-score>
+      <Hsp_score>701</Hsp_score>
+      <Hsp_evalue>2.58485e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>740</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>756</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>609</Hsp_identity>
+      <Hsp_positive>609</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>768</Hsp_align-len>
+      <Hsp_qseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTG--TACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACCCGGAGCGGCGGCGTGCTGTCGCGTGC---CCAATGAATTTTG-ATGACTCTCGCAAACGGGAATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTC--GCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGC-----AGCTGCCGTGCGAATCCCCC-ATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCCAATGGAG--------------GGCGGTTGACCGCCATTCGGATGTGACCCCAGGTCAGGCGGGGGCACCCGCTGAGTTTACGC</Hsp_qseq>
+      <Hsp_hseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGTTGAGACAGCAGAATATATGATCGAGTGAATCCGGTGGACTTGTGGTTACTCAGCTCAACATAGGCTTTGCTTTTGCGGTGACCCTAATTTGTCATTGGGCCTCCTCCAAAGCTTTCCTTGTGGGTTTGAACCTCTAGCACGGTGCAGTATG--CGCCAAGTCATATGAA-GCATCACTGATGAATGACATTATTGTCA--AAAAGTTGGAGTGGAAGCGTGCTATTGCATGCATGCAAATGATTTTTTTATGACTCTCGACAACGGATATCTTGGCTCTT-GCATCG-ATG-AAGAACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTT-GAACGCAAGTTGCGCCCGATGCCATCAGGCTAAGGGCACGCCTGCCTGGGCGTCGTGTGCTGCG--TCTCTCCTGTCAATGCTTTCGTATCATATAGATAGGTTTGCATTGCGTGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGTGGGTCTAAGGACTAGTGTTTTGATGGTTCGAAACCTGGCAGGAGGTGGA-GGATGTTGGCAGCTATAAGGCTATCATTTGTATCCCCCAATATTGTCGTGTTTGTCGGACCTAGAGAAGAACTTGTTTGAATCCCAATGGAGGCAAACAACCCTCAGGCGGTTGATTGCCATTCATATGCGACCCCAGGTCAGGCGGGGCCACCCGCTGAGTTTAAGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||| |||||| |  ||||| | |||||||||||||||| ||||  |||  ||||||||||| |   ||| |||||   | ||||||||| ||||||  ||||||| ||||   ||| | | | | ||||||||||||||||| ||| ||||| ||  ||||||| |||||||| ||||||| |  ||||| |||| |  ||   ||||   |||| ||  ||||||| | || |||   | ||||| ||||  ||||||||||  |||||  |||||||||||| |||||| ||| ||| ||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||| ||||||||||||||||||| ||||||||||||||||||||||||| ||||||||  | ||| ||  ||||||||| |||||||| |    |||| ||  |||   || | | | |||||||||||||||||||||||||||||||||||| ||||| |||  || ||||||||||||  || |||| |||| |||||||| ||||| |||||||      |||  | |  | ||||||| || |||||||| |||||||||    || |||||   |  ||| ||||||||||              |||||||||  |||||||  ||| ||||||||||||||||||| ||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1382343099|gb|MH250185.1|</Hit_id>
+  <Hit_def>Cypripedium calceolus isolate R1 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MH250185</Hit_accession>
+  <Hit_len>814</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>633.367</Hsp_bit-score>
+      <Hsp_score>701</Hsp_score>
+      <Hsp_evalue>2.58485e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>740</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>792</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>609</Hsp_identity>
+      <Hsp_positive>609</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>768</Hsp_align-len>
+      <Hsp_qseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTG--TACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACCCGGAGCGGCGGCGTGCTGTCGCGTGC---CCAATGAATTTTG-ATGACTCTCGCAAACGGGAATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTC--GCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGC-----AGCTGCCGTGCGAATCCCCC-ATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCCAATGGA--------------GGGCGGTTGACCGCCATTCGGATGTGACCCCAGGTCAGGCGGGGGCACCCGCTGAGTTTACGC</Hsp_qseq>
+      <Hsp_hseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGTTGAGACAGCAGAATATATGATCGAGTGAATCCGGTGGACTTGTGGTTACTCAGCTCGACATAGGCTTTGCTTTTGCGGTGACCCTAATTTGCCATTGGGCCTCCTCCAAAGCTTTCCTTGTGGGTTTGAACCTCTAGCACGGTGCAGTATG--CGCCAAGTCATATGAA-GCATCACCGATGAATGACATTATTGTCA--AAAAGTTGGAGTGGAAGCGTGCTATTGCATGCATGCAAATGAATTTTTTATGACTCTCGACAACGGATATCTTGGCTCTT-GCATCG-ATG-AAGAACGCAGCAAAATGCGATAAGTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTT-GAACGCAAGTTGCGCCCGATGCCATCAGGCTAAGGGCACGCCTGCCTGGGCGTCGTGTGCTGCG--TCTCTCCTGTCAATGCTTTCATGTCATATAGATAGGTTTGCATTGCGTGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGTGGGTCTAAGGACTAGTGTTTTGATGGTTCGAAACCTGGCAGGAGGTGGA-GGATGTTGGCAGCTATAAGGCTATCATTTGAATCCCCCAATATTGTCGTGTTTGTCGGACCTAGAGAAAAACATGTTTGAATCCCAATGGAGGCAAACAACTCTCGGGCGGTTGATTGCCATTCATATGCGACCCCAGGTCAGGCGGGGCCACCCGCTGAGTTTAAGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||| |||||| |  ||||| | |||||||||||||||| ||||  |||  ||||||||||  |   ||| |||||   | ||||||||| |||||   ||||||| ||||   ||| | | | | ||||||||||||||||| ||| ||||| ||  ||||||| |||||||| |||||||||  ||||| |||| |  ||   ||||   |||| ||  ||||||| | || |||   | ||||||||||  ||||||||||  |||||  |||||||||||| |||||| ||| ||| ||||||| ||||||||||||||||||||||||||  ||||||||||||||||||||||| ||||||||||||||||||| ||||||||||||||||||||||||| ||||||||  | ||| ||  ||||||||| |||||||| |  | |||| ||  |||   || | | | |||||||||||||||||||||||||||||||||||| ||||| |||  || ||||||||||||  || |||| |||| |||||||| ||||| |||||||      |||  | |  ||||||||| || |||||||| |||||||||    || | |||   |  ||| |||||||||              ||||||||||  |||||||  ||| ||||||||||||||||||| ||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1434743039|gb|MF543770.1|</Hit_id>
+  <Hit_def>Cypripedium calceolus voucher CYCACM03-230687 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MF543770</Hit_accession>
+  <Hit_len>816</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>633.367</Hsp_bit-score>
+      <Hsp_score>701</Hsp_score>
+      <Hsp_evalue>2.58485e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>740</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>803</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>609</Hsp_identity>
+      <Hsp_positive>609</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>768</Hsp_align-len>
+      <Hsp_qseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTG--TACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACCCGGAGCGGCGGCGTGCTGTCGCGTGC---CCAATGAATTTTG-ATGACTCTCGCAAACGGGAATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTC--GCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGC-----AGCTGCCGTGCGAATCCCCC-ATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCCAATGGA--------------GGGCGGTTGACCGCCATTCGGATGTGACCCCAGGTCAGGCGGGGGCACCCGCTGAGTTTACGC</Hsp_qseq>
+      <Hsp_hseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGTTGAGACAGCAGAATATATGATCGAGTGAATCCGGTGGACTTGTGGTTACTCAGCTCGACATAGGCTTTGCTTTTGCGGTGACCCTAATTTGCCATTGGGCCTCCTCCAAAGCTTTCCTTGTGGGTTTGAACCTCTAGCACGGTGCAGTATG--CGCCAAGTCATATGAA-GCATCACCGATGAATGACATTATTGTCA--AAAAGTTGGAGTGGAAGCGTGCTATTGCATGCATGCAAATGAATTTTTTATGACTCTCGACAACGGATATCTTGGCTCTT-GCATCG-ATG-AAGAACGCAGCAAAATGCGATAAGTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTT-GAACGCAAGTTGCGCCCGATGCCATCAGGCTAAGGGCACGCCTGCCTGGGCGTCGTGTGCTGCG--TCTCTCCTGTCAATGCTTTCATGTCATATAGATAGGTTTGCATTGCGTGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGTGGGTCTAAGGACTAGTGTTTTGATGGTTCGAAACCTGGCAGGAGGTGGA-GGATGTTGGCAGCTATAAGGCTATCATTTGAATCCCCCAATATTGTCGTGTTTGTCGGACCTAGAGAAAAACATGTTTGAATCCCAATGGAGGCAAACAACTCTCGGGCGGTTGATTGCCATTCATATGCGACCCCAGGTCAGGCGGGGCCACCCGCTGAGTTTAAGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||| |||||| |  ||||| | |||||||||||||||| ||||  |||  ||||||||||  |   ||| |||||   | ||||||||| |||||   ||||||| ||||   ||| | | | | ||||||||||||||||| ||| ||||| ||  ||||||| |||||||| |||||||||  ||||| |||| |  ||   ||||   |||| ||  ||||||| | || |||   | ||||||||||  ||||||||||  |||||  |||||||||||| |||||| ||| ||| ||||||| ||||||||||||||||||||||||||  ||||||||||||||||||||||| ||||||||||||||||||| ||||||||||||||||||||||||| ||||||||  | ||| ||  ||||||||| |||||||| |  | |||| ||  |||   || | | | |||||||||||||||||||||||||||||||||||| ||||| |||  || ||||||||||||  || |||| |||| |||||||| ||||| |||||||      |||  | |  ||||||||| || |||||||| |||||||||    || | |||   |  ||| |||||||||              ||||||||||  |||||||  ||| ||||||||||||||||||| ||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1434743036|gb|MF543767.1|</Hit_id>
+  <Hit_def>Cypripedium calceolus voucher CYCACM04-050714 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MF543767</Hit_accession>
+  <Hit_len>847</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>633.367</Hsp_bit-score>
+      <Hsp_score>701</Hsp_score>
+      <Hsp_evalue>2.58485e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>740</Hsp_query-to>
+      <Hsp_hit-from>64</Hsp_hit-from>
+      <Hsp_hit-to>819</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>609</Hsp_identity>
+      <Hsp_positive>609</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>768</Hsp_align-len>
+      <Hsp_qseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTG--TACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACCCGGAGCGGCGGCGTGCTGTCGCGTGC---CCAATGAATTTTG-ATGACTCTCGCAAACGGGAATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTC--GCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGC-----AGCTGCCGTGCGAATCCCCC-ATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCCAATGGA--------------GGGCGGTTGACCGCCATTCGGATGTGACCCCAGGTCAGGCGGGGGCACCCGCTGAGTTTACGC</Hsp_qseq>
+      <Hsp_hseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGTTGAGACAGCAGAATATATGATCGAGTGAATCCGGTGGACTTGTGGTTACTCAGCTCGACATAGGCTTTGCTTTTGCGGTGACCCTAATTTGCCATTGGGCCTCCTCCAAAGCTTTCCTTGTGGGTTTGAACCTCTAGCACGGTGCAGTATG--CGCCAAGTCATATGAA-GCATCACCGATGAATGACATTATTGTCA--AAAAGTTGGAGTGGAAGCGTGCTATTGCATGCATGCAAATGAATTTTTTATGACTCTCGACAACGGATATCTTGGCTCTT-GCATCG-ATG-AAGAACGCAGCAAAATGCGATAAGTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTT-GAACGCAAGTTGCGCCCGATGCCATCAGGCTAAGGGCACGCCTGCCTGGGCGTCGTGTGCTGCG--TCTCTCCTGTCAATGCTTTCATGTCATATAGATAGGTTTGCATTGCGTGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGTGGGTCTAAGGACTAGTGTTTTGATGGTTCGAAACCTGGCAGGAGGTGGA-GGATGTTGGCAGCTATAAGGCTATCATTTGAATCCCCCAATATTGTCGTGTTTGTCGGACCTAGAGAAAAACATGTTTGAATCCCAATGGAGGCAAACAACTCTCGGGCGGTTGATTGCCATTCATATGCGACCCCAGGTCAGGCGGGGCCACCCGCTGAGTTTAAGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||| |||||| |  ||||| | |||||||||||||||| ||||  |||  ||||||||||  |   ||| |||||   | ||||||||| |||||   ||||||| ||||   ||| | | | | ||||||||||||||||| ||| ||||| ||  ||||||| |||||||| |||||||||  ||||| |||| |  ||   ||||   |||| ||  ||||||| | || |||   | ||||||||||  ||||||||||  |||||  |||||||||||| |||||| ||| ||| ||||||| ||||||||||||||||||||||||||  ||||||||||||||||||||||| ||||||||||||||||||| ||||||||||||||||||||||||| ||||||||  | ||| ||  ||||||||| |||||||| |  | |||| ||  |||   || | | | |||||||||||||||||||||||||||||||||||| ||||| |||  || ||||||||||||  || |||| |||| |||||||| ||||| |||||||      |||  | |  ||||||||| || |||||||| |||||||||    || | |||   |  ||| |||||||||              ||||||||||  |||||||  ||| ||||||||||||||||||| ||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|350999051|gb|JF796917.1|</Hit_id>
+  <Hit_def>Cypripedium reginae f. albolabium internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence</Hit_def>
+  <Hit_accession>JF796917</Hit_accession>
+  <Hit_len>724</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>629.76</Hsp_bit-score>
+      <Hsp_score>697</Hsp_score>
+      <Hsp_evalue>3.149e-175</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>679</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>679</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>563</Hsp_identity>
+      <Hsp_positive>563</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>690</Hsp_align-len>
+      <Hsp_qseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTG--TACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACCCGGAGCGGCGGCGTGCTGTCGCG--TGCCCAATGAATTTTGATGACTCTCGCAAACGGGAATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTC--GCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTG---GCAGCA--GCTGCCGTGCGAATCCCCCATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCCAATGGAGG</Hsp_qseq>
+      <Hsp_hseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGTTGAGATAGTAGAATATTCGATCGAGTGAATTCGGAGGACTTGTGGTTACTCGGCTCGTCGAAGGCTTAGCTTTTGTGGTGACCCTGATTTGTAGTTGGGCATCCTCAAGAGCTTTTATGGCGGGTTTGAGCCTCTATCACGGCGCAGTTTG--CGCCAAGTCATATGAA-GCATCACCGACGAATGACATTATTGTCAC-AAAAGTCGGATGGGCGGTGTGCTGTTGCGCATGCCAATAAAATTTTTATGACTCTCGGCAACGGATATCTTGGCTCTT-GCATCG-ATG-AAGAACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTT-GAACGCAAGTTGCGCCCAAGGCCATCAGGCTAAGGGCACGCCTGCCTGGGCGTCGTGTGCTGCATCTCTTT--TGCCAATGCTTGCCCGACATACAATTAGGCCAGTATTGCATAGATATGAAAGATTGACCCCTTGTGCTTAGGTGCGGTGGGTCTAAGGATTGGTGTTTTGATGGCCCAAACCCCGGCAGGAGGTGGA-GCATGTTGATAGTCGCAAGGCTGTCGTTCAAATCCCACATGTTGTCGTATTTGCCGGACCCACAGAAGAACCTATTTGAACCCCTATGGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||| |||||  || |||||  ||||||||||||| ||||||||  |||  ||||| ||||  ||  ||| | |||   |||||||||||||||||| |||||||  ||||  |||| |  ||||||||||||| |||||| | ||||||||||||  ||||||| |||||||| ||||||||| |||||| |||| |  || | ||||  ||||  ||||| ||||||| |||  |||| |   |||||| ||||||||||  |||||  |||||||||||| |||||| ||| ||| ||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||| ||||||||||||||||| ||||||||||||||||||||||||||| ||||||||  | ||| | ||||| |  |||||||||||||||| ||||||   ||||| |  | |    ||| |||||||||| |||||||||| ||||||||| ||||| |||   |||||||||||||||||  | ||||||| |||||||| | ||| ||   |  |||  |||| ||| | |||||| |||||||||||  ||| |||||   ||| ||||||  |  ||||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|751868568|gb|KJ939532.1|</Hit_id>
+  <Hit_def>Cypripedium calcicola voucher Szlachetko s.n. 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KJ939532</Hit_accession>
+  <Hit_len>766</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>628.859</Hsp_bit-score>
+      <Hsp_score>696</Hsp_score>
+      <Hsp_evalue>3.149e-175</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>740</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>756</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>608</Hsp_identity>
+      <Hsp_positive>608</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>768</Hsp_align-len>
+      <Hsp_qseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTG--TACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACCCGGAGCGGCGGCGTGCTGTCGCGTGC---CCAATGAATTTTG-ATGACTCTCGCAAACGGGAATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTC--GCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGC-----AGCTGCCGTGCGAATCCCCC-ATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCCAATGGAG--------------GGCGGTTGACCGCCATTCGGATGTGACCCCAGGTCAGGCGGGGGCACCCGCTGAGTTTACGC</Hsp_qseq>
+      <Hsp_hseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGTTGAGACAGCAGAATATATGATCGAGTGAATCCGGTGGACTTGTGGTTACTCAGCTCAACATAGGCTTTGCTTTTGCGGTGACCCTAATTTGTCATTGGGCCTCCTCCAAAGCTTTCCTTGTGGGTTTGAACCTCTAGCACGGTGCAGTATG--CGCCAAGTCATATGAA-GCATCACTGATGAATGACATTATTGTCA--AAAAGTTGGAGTGGAAGCGTGCTATTGCATGCATGCAAATGATTTTTTTATGACTCTCGACAACGGATATCTTGGCTCTT-GCATCG-ATG-AAGAACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTT-GAACGCAAGTTGCGCCCGATGCCATCAGGCTAAGGGCACGCCTGCCTGGGCGTCGTGTGCTGCG--TCTCTCCTGTCAATGCTTTCGTATCATATAGATAGGTTTGCATTGCATGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGTGGGTCTAAGGACTAGTGTTTTGATGGTTCGAAACCTGGCAGGAGGTGGA-GGATGTTGGCAGCTATAAGGCTATCATTTGTATCCCCCAATATTGTCGTGTTTGTCGGACCTAGAGAAGAACTTGTTTGAATCCCAATGGAGGCAAACAACCCTCAGGCGGTTGATTGCCATTCATATGCGACCCCAGGTCAGGCGGGGCCACCCGCTGAGTTTAAGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||| |||||| |  ||||| | |||||||||||||||| ||||  |||  ||||||||||| |   ||| |||||   | ||||||||| ||||||  ||||||| ||||   ||| | | | | ||||||||||||||||| ||| ||||| ||  ||||||| |||||||| ||||||| |  ||||| |||| |  ||   ||||   |||| ||  ||||||| | || |||   | ||||| ||||  ||||||||||  |||||  |||||||||||| |||||| ||| ||| ||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||| ||||||||||||||||||| ||||||||||||||||||||||||| ||||||||  | ||| ||  ||||||||| |||||||| |    |||| ||  |||   || | |   |||||||||||||||||||||||||||||||||||| ||||| |||  || ||||||||||||  || |||| |||| |||||||| ||||| |||||||      |||  | |  | ||||||| || |||||||| |||||||||    || |||||   |  ||| ||||||||||              |||||||||  |||||||  ||| ||||||||||||||||||| ||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|751868572|gb|KJ939536.1|</Hit_id>
+  <Hit_def>Cypripedium franchetii voucher Szlachetko s.n. 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KJ939536</Hit_accession>
+  <Hit_len>766</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>624.35</Hsp_bit-score>
+      <Hsp_score>691</Hsp_score>
+      <Hsp_evalue>1.33899e-173</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>740</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>756</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>607</Hsp_identity>
+      <Hsp_positive>607</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>768</Hsp_align-len>
+      <Hsp_qseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTG--TACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACCCGGAGCGGCGGCGTGCTGTCGCGTGC---CCAATGAATTTTG-ATGACTCTCGCAAACGGGAATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTC--GCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGC-----AGCTGCCGTGCGAATCCCCC-ATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCCAATGG--------------AGGGCGGTTGACCGCCATTCGGATGTGACCCCAGGTCAGGCGGGGGCACCCGCTGAGTTTACGC</Hsp_qseq>
+      <Hsp_hseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGTTGAGACAGCAGAATATATGATCGAGTGAATCCGGTGGACTTGTGGTTACTCAGCTCGACATAGGCTTTGCTTTTGCGGCGACCCTAATTTGTCATTGGGCCTCCTCCAAAGCTTTCCTTGTGGGTTTGAACCTCTAGCACGGTGCAGTATG--CGCCAAGTCATATGAA-GCATCACTGATGAATGACATTATTGTCA--AAAAGTTGGAGTGGAAGCGTGCTATTGCATGCATGCAAATGAATTTTTTATGACTCTCGACAACGGATATCTTGGCTCTT-GCATCG-ATG-AAGAACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTT-GAACGCAAGTTGCGCCCGATGCCATCAGGCTAAGGGCACGCCTGCCTGGGCGTCGTGTGCTGCG--TCTCTCCTGTCAATGCTTTCGTATCATATAGATAGGTTTGCATTGCGTGGATGTGAAGGATTGGCCCCTTGTGCCTAGGTGCGGTGGGTCTAAGGACTAGTGTTTTGATGGTTCGAAACCTGGCAGGAGGTGGA-GGATGTTGGCAGCTATAAGGCTATCATTTGAATCCCCCAATATTGTCGTGTTTGTCGGACCTAGAGAAGAACATGTTTGAATCCCAATGGGGGCAAACAACCCTCGGGCGGTTGATTGCCATTCATATGCGACCCCAGGTCAGGCGGGGCCACCCGCTGAGTTTAAGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||| |||||| |  ||||| | |||||||||||||||| ||||  |||  ||||||||||  |   ||| |||||   | || |||||| ||||||  ||||||| ||||   ||| | | | | ||||||||||||||||| ||| ||||| ||  ||||||| |||||||| ||||||| |  ||||| |||| |  ||   ||||   |||| ||  ||||||| | || |||   | ||||||||||  ||||||||||  |||||  |||||||||||| |||||| ||| ||| ||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||| ||||||||||||||||||| ||||||||||||||||||||||||| ||||||||  | ||| ||  ||||||||| |||||||| |    |||| ||  |||   || | | | ||||||||| |||||||||||||||||||||||||| ||||| |||  || ||||||||||||  || |||| |||| |||||||| ||||| |||||||      |||  | |  ||||||||| || |||||||| |||||||||    || |||||   |  ||| ||||||||               ||||||||||  |||||||  ||| ||||||||||||||||||| ||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|340742828|gb|JN018078.1|</Hit_id>
+  <Hit_def>Cypripedium calcicola 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 26S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>JN018078</Hit_accession>
+  <Hit_len>756</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>623.449</Hsp_bit-score>
+      <Hsp_score>690</Hsp_score>
+      <Hsp_evalue>1.33899e-173</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>740</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>753</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>605</Hsp_identity>
+      <Hsp_positive>605</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>765</Hsp_align-len>
+      <Hsp_qseq>AACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTG--TACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACCCGGAGCGGCGGCGTGCTGTCGCGTGC---CCAATGAATTTTG-ATGACTCTCGCAAACGGGAATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTC--GCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGC-----AGCTGCCGTGCGAATCCCCC-ATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCCAATGGAG--------------GGCGGTTGACCGCCATTCGGATGTGACCCCAGGTCAGGCGGGGGCACCCGCTGAGTTTACGC</Hsp_qseq>
+      <Hsp_hseq>AACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGTTGAGACAGCAGAATATATGATCGAGTGAATCCGGTGGACTTGTGGTTACTCAGCTCAACATAGGCTTTGCTTTTGCGGTGACCCTAATTTGTCATTGGGCCTCCTCCAAAGCTTTCCTTGTGGGTTTGAACCTCTAGCACGGTGCAGTATG--CGCCAAGTCATATGAA-GCATCACTGATGAATGACATTATTGTCA--AAAAGTTGGAGTGGAAGCGTGCTATTGCATGCATGCAAATGATTTTTTTATGACTCTCGACAACGGATATCTTGGCTCTT-GCATCG-ATG-AAGAACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTT-GAACGCAAGTTGCGCCCGATGCCATCAGGCTAAGGGCACGCCTGCCTGGGCGTCGTGTGCTGCG--TCTCTCCTGTCAATGCTTTCGTATCATATAGATAGGTTTGCATTGCGTGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGTGGGTCTAAGGACTAGTGTTTTGATGGTTCGAAACCTGGCAGGAGGTGGA-GGATGTTGGCAGCTATAAGGCTATCATTTGTATCCCCCAATATTGTCGTGTTTGTCGGACCTAGAGAAGAACTTGTTTGAATCCCAATGGAGGCAAACAACCCTCAGGCGGTTGATTGCCATTCATATGCGACCCCAGGTCAGGCGGGGCCACCCGCTGAATTTAAGC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||| |||||| |  ||||| | |||||||||||||||| ||||  |||  ||||||||||| |   ||| |||||   | ||||||||| ||||||  ||||||| ||||   ||| | | | | ||||||||||||||||| ||| ||||| ||  ||||||| |||||||| ||||||| |  ||||| |||| |  ||   ||||   |||| ||  ||||||| | || |||   | ||||| ||||  ||||||||||  |||||  |||||||||||| |||||| ||| ||| ||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||| ||||||||||||||||||| ||||||||||||||||||||||||| ||||||||  | ||| ||  ||||||||| |||||||| |    |||| ||  |||   || | | | |||||||||||||||||||||||||||||||||||| ||||| |||  || ||||||||||||  || |||| |||| |||||||| ||||| |||||||      |||  | |  | ||||||| || |||||||| |||||||||    || |||||   |  ||| ||||||||||              |||||||||  |||||||  ||| ||||||||||||||||||| |||||||||| |||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|380005812|gb|JQ004987.1|</Hit_id>
+  <Hit_def>Cypripedium henryi internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence</Hit_def>
+  <Hit_accession>JQ004987</Hit_accession>
+  <Hit_len>762</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>620.743</Hsp_bit-score>
+      <Hsp_score>687</Hsp_score>
+      <Hsp_evalue>1.63122e-172</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>740</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>744</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>600</Hsp_identity>
+      <Hsp_positive>600</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>756</Hsp_align-len>
+      <Hsp_qseq>TCCGTAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTG--TACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACCCGGAGCGGCGGCGTGCTGTCGCGTGCC--CAAT-GAAT-TTTGATGACTCTCGCAAACGGGAATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTC--GCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGC-----AGCTGCCGTGCGAATCCCCC-ATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCCAATGGA--------------GGGCGGTTGACCGCCATTCGGATGTGACCCCAGGTCAGGCGGGGGCACCCGCTGAGTTTACGC</Hsp_qseq>
+      <Hsp_hseq>TCCGTAGGTGAACCTGCGGAAGGATCATTGTTGAGACAGCAGAATATATGATCGAGTGAATCCGGTGGACTTGTGGTTACTCAGCTCGCCATAGGCTTTGCTTTTGCGGTGACCCTAATTTGTCATTGGGCCTCCTCCAAAGCTTTCCTTGTGGGTTTGAACCTCTAGCACGGTGCAGTATG--CGCCAAGTCATATGAAT-CATCGCCGATGAATGACATTATTGTCA--AAAAGTTGGAGTAGAAGCGTGCTATTGCATGCATGCAATAGAATATTTTATGACTCTCGACAACGGATATCTTGGCTCTT-GCATCG-ATG-AAGAACGCAGCGAAATGTGATAAGTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTT-GAACGCAAGTTGCGCCCGATGCCATCAGGCTAAGGGCACGCCTGCCTGGGCGTCGTGTGCTGCG--TCTCTCCTGTCAATGCTTTCCTGTCATATCGATAGGTTTGCATTGTGTGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGTGGGTCTAAGGACTAGTGTTTTGATGGTTCGAAACCTGGCAGGAGGTGGA-GGATGTTGGCAGCTATAAGGTTGTCATTTGAATCCCCCAATATTGTCGTGTTTGTCGGACCTGGAGAAGAACCTGTTTGAATCCCAATGGAGGCAAACAGCCCTCGGGCGGTTGATTGCCATTCATATGCGACCCCAGGTCAGGCGGGGCCACCCGCTGAGTTTAAGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||| |||||| |  ||||| | |||||||||||||||| ||||  |||  |||||||||| ||   ||| |||||   | ||||||||| ||||||  ||||||| ||||   ||| | | | | ||||||||||||||||| ||| ||||| ||  ||||||| ||||||||  |||| |||  ||||| |||| |  ||   ||||   ||||  |  ||||||| | || |||   |||| |||| ||| ||||||||||  |||||  |||||||||||| |||||| ||| ||| ||||||||||||| ||||||||||||||||||||  ||||||||||||||||||||||| ||||||||||||||||||| ||||||||||||||||||||||||| ||||||||  | ||| ||  ||||||||| |||||||| || | ||||  |  |||   || | ||| |||||||||||||||||||||||||||||||||||| ||||| |||  || ||||||||||||  || |||| |||| |||||||| ||||| |||||||      | || | |  ||||||||| || |||||||| |||||||||  | || ||||||  |  ||| |||||||||              ||||||||||  |||||||  ||| ||||||||||||||||||| ||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|380005815|gb|JQ004990.1|</Hit_id>
+  <Hit_def>Cypripedium fasciolatum internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence</Hit_def>
+  <Hit_accession>JQ004990</Hit_accession>
+  <Hit_len>762</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>620.743</Hsp_bit-score>
+      <Hsp_score>687</Hsp_score>
+      <Hsp_evalue>1.63122e-172</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>740</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>744</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>599</Hsp_identity>
+      <Hsp_positive>599</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>756</Hsp_align-len>
+      <Hsp_qseq>TCCGTAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTG--TACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACCCGGAGCGGCGGCGTGCTGTCGCGTGC---CCAATGAATTTTG-ATGACTCTCGCAAACGGGAATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTC--GCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGC-----AGCTGCCGTGCGAATCCCCC-ATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCCAATGGA--------------GGGCGGTTGACCGCCATTCGGATGTGACCCCAGGTCAGGCGGGGGCACCCGCTGAGTTTACGC</Hsp_qseq>
+      <Hsp_hseq>TCCGTAGGTGAACCTGCGGAAGGATCATTGTTGAGACAGCAGAATATATGATCGAGTGAATCCGGTGGACTTGTGGTTACTCAGCTCAACATAGGCTTTGCTTTTGCGGTGACCCTAATTTGTCATTGGGCCTCCTCCAAAGCTTTCCTTGTGGGTTTGAACCTCTAGCACGGTGCAGTATG--CGCCAAGTCATATGAA-GCATCACTGATGAATGACATTATTGTCA--AAAAGTTGGAGTGGAAGCGTGCTATTGCATGCATGCAAATGATTTTTTTATGACTCTCGACAACGGATATCTTGGCTCTT-GCATCG-ATG-AAGAACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTT-GAACGCAAGTTGCGCCCGATGCCATCAGGCTAAGGGCACGCCTGCCTGGGCGTCGTGTGCTGCG--TCTCTCCTGTCAATGCTTTCGTATCATATAGATAGGTTTGCATTGCGTGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGTGGGTCTAAGGACTAGTGTTTTGATGGTTCGAAACCTGGCAGGAGGTGGA-GGATGTTGGCAGCTATAAGGCTATCATTTGAATCCCCCAATATTGTCGTGTTTGTCGGACCTAGAGAAGAACCTGTTTGAATCCCAATGGAGGCAAACAACCCTCGGGCGGTTGATTGCCATTCATATGCGACCCCAGGTCAGGCGGGGCCACCCGCTGAGTTTAAGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||| |||||| |  ||||| | |||||||||||||||| ||||  |||  ||||||||||| |   ||| |||||   | ||||||||| ||||||  ||||||| ||||   ||| | | | | ||||||||||||||||| ||| ||||| ||  ||||||| |||||||| ||||||| |  ||||| |||| |  ||   ||||   |||| ||  ||||||| | || |||   | ||||| ||||  ||||||||||  |||||  |||||||||||| |||||| ||| ||| ||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||| ||||||||||||||||||| ||||||||||||||||||||||||| ||||||||  | ||| ||  ||||||||| |||||||| |    |||| ||  |||   || | | | |||||||||||||||||||||||||||||||||||| ||||| |||  || ||||||||||||  || |||| |||| |||||||| ||||| |||||||      |||  | |  ||||||||| || |||||||| |||||||||    || ||||||  |  ||| |||||||||              ||||||||||  |||||||  ||| ||||||||||||||||||| ||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|340742821|gb|JN018071.1|</Hit_id>
+  <Hit_def>Cypripedium calceolus 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 26S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>JN018071</Hit_accession>
+  <Hit_len>756</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>617.137</Hsp_bit-score>
+      <Hsp_score>683</Hsp_score>
+      <Hsp_evalue>1.98723e-171</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>740</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>753</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>607</Hsp_identity>
+      <Hsp_positive>607</Hsp_positive>
+      <Hsp_gaps>44</Hsp_gaps>
+      <Hsp_align-len>767</Hsp_align-len>
+      <Hsp_qseq>AACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTG--TACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACCCGGAGCGGCGGCGTGCTGTCGCGTGC---CCAATGAATTTTG-ATGACTCTCGCAAACGGGAATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTC--GCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGC-----AGCTGCCGTGCGAATCCCCC-ATGTTGTCGTGCTTGTCGGAC--AGGCAGGAGAACCCTTCCGAACCCCAATGGA--------------GGGCGGTTGACCGCCATTCGGATGTGACCCCAGGTCAGGCGGGGGCACCCGCTGAGTTTACGC</Hsp_qseq>
+      <Hsp_hseq>AACAAGGTTTCC-TAGGTGAACCTGCGGAAGGATCATTGTTGAGACAGCAGAATATATGATCGAGTGAATCCGGTGGACTTGTGGTTACTCAGCTCGACATAGGCTTTGCTTTTGCGGTGACCCTAATTTGCCATTGGGCCTCCTCCAAAGCTTTCCTTGTGGGTTTGAACCTCTAGCACGGCGCAGTATG--CGCCAAGTCATATGAA-GCATCACCGATGAATGACATTATTGTCA--AAAAGTTGCAGTGGAAGCGTGCTATTGCATGCATGCAAATGAATTTTTTATGACTCTCGACAACGGACATCTTGGCTCTT-GCATCG-ATG-AAGAACGCAGCAAAATGCGATAAGTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTT-GAACGCAAGTTGCGCCCGATGCCATCAGGCTAAGGGCACGCCTGCCTGGGCGTCGTGTGCTGCG--TCTCTCCTGTCAATGCTTTCATGTCATATAGATAGGTTTGCATTGCGTGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGTGGGTCTAAGGACTAGTGTTTTGATGGTTCGAAACCTGGCAGGAGGTGGA-GGATGTTGGCAGCTATAAGGCTATCATTTGAATCCCCCAATATTGTCGTGTTTGTCGGACCTATG-AGAAAAACATGTTTGAATCCCAATGGAGGCAAACAACTCTCGGGCGGTTGATTGCCATTCATATGCGACCCCAGGTCAGGCGGGGCCACCCGCTGAGTTTAAGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||||||||||||| |||||| |  ||||| | |||||||||||||||| ||||  |||  ||||||||||  |   ||| |||||   | ||||||||| |||||   ||||||| ||||   ||| | | | | ||||||||||||||||| ||||||||| ||  ||||||| |||||||| |||||||||  ||||| |||| |  ||   ||||   | || ||  ||||||| | || |||   | ||||||||||  ||||||||||  |||||  |||||||||||| |||||| ||| ||| ||||||| ||||||||||||||||||||||||||  ||||||||||||||||||||||| ||||||||||||||||||| ||||||||||||||||||||||||| ||||||||  | ||| ||  ||||||||| |||||||| |  | |||| ||  |||   || | | | |||||||||||||||||||||||||||||||||||| ||||| |||  || ||||||||||||  || |||| |||| |||||||| ||||| |||||||      |||  | |  ||||||||| || |||||||| |||||||||  | | || | |||   |  ||| |||||||||              ||||||||||  |||||||  ||| ||||||||||||||||||| ||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|350999030|gb|JF796896.1|</Hit_id>
+  <Hit_def>Cypripedium subtropicum internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence &gt;gi|350999031|gb|JF796897.1| Cypripedium singchii internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence</Hit_def>
+  <Hit_accession>JF796896</Hit_accession>
+  <Hit_len>731</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>614.432</Hsp_bit-score>
+      <Hsp_score>680</Hsp_score>
+      <Hsp_evalue>6.93613e-171</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>679</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>681</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>560</Hsp_identity>
+      <Hsp_positive>560</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>690</Hsp_align-len>
+      <Hsp_qseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTG--TACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACCCGGAGCGGCGGCGTGCTGTCGCGTGC-CCAATGAA-TTTTGATGACTCTCGCAAACGGGAATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTCGCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCA---GCA--GCTGCCGTGCGAATCCCCCATGTTGTCGTGCTTGTCGGACAGGCAG--GAGAACCCTTCCGAACCCCAATGGAGG</Hsp_qseq>
+      <Hsp_hseq>CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGTTGAGACCGCATAATATATGATCGAGTAAATCCAGAGGACCTGTGGTTACTCGGCTCGCCGGGGGTTTTTCTTTCGTGGTGACC-TGATTTGCCATAGGGCCTCCTCGAGAGCTTTCAAGGCGGGTTTGAACCTCTAATACGGCGCGGTTTG--CGCCAAGTCATATTGAAGCATCACCAATTAATGACTTTATTGTCAG-AAAAGTTGGAGAGGTGGCATGCTGTTGCGCATACCAATGAACTTTTGATGACTCTCGACAACGGATATCTTGGCTCTT-GCATCG-ATG-AAGAACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTT-GAACGCAAGTTGCGCCCAAAGCCATCAGGCTAAGGGCACGCCTGCCTGGGCGTTGTGTGCTCTGTCTCTCCTGCCAAGGCTTTCCTAGCATATAGTTAGGCTGGCATTGTGCGGATGTGAAAGATTGGCCCCTTGTGCTTAGGTGTGGTGGGTCTAAGGATTAGTGTTTTGATGGCCCGTAACCTGGCAGGAGGTGGA-GGATGCTAGCAGTCGCAATGCTGTTGTTCGGATCCCCCATGTTGTCTTATTTGTCGGGCCCACAGAAGGGAACCTATTTGAACCCCAATGAAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||| ||||||||   |||| | |||||||| ||||| ||||||| |||  ||||| |||| |||||||  || ||  |||||||||| |||||||   | ||||| ||||| |||| | || ||||||||||||||||||   |||||| |||||  ||||||| |||||  ||||||||||    |||| | || |  ||   ||||   |||| || ||| |||||| |||    |||||||| |||||||||||||||  |||||  |||||||||||| |||||| ||| ||| ||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||| ||||||||||||||||| | ||||||||||||||||||||||||| ||||||| | |     | ||||||||||||| |||| ||  ||||| ||  |||| ||| | |||||||||||||||||||||||||||||| |||||| || ||||| |||   | |||||||||||||||| |||| |||| |||||||| ||||||| |||   |||  ||||  || || ||||||||||||||| |  ||||||| |   |||  | |||||  |  ||||||||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|380005817|gb|JQ004992.1|</Hit_id>
+  <Hit_def>Cypripedium tibeticum internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence</Hit_def>
+  <Hit_accession>JQ004992</Hit_accession>
+  <Hit_len>762</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>611.727</Hsp_bit-score>
+      <Hsp_score>677</Hsp_score>
+      <Hsp_evalue>8.44993e-170</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>740</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>744</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>597</Hsp_identity>
+      <Hsp_positive>597</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>756</Hsp_align-len>
+      <Hsp_qseq>TCCGTAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTG--TACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACCCGGAGCGGCGGCGTGCTGTCGCGTGC---CCAATGAATTTTG-ATGACTCTCGCAAACGGGAATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTC--GCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGC-----AGCTGCCGTGCGAATCCCCC-ATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCCAATGGAG--------------GGCGGTTGACCGCCATTCGGATGTGACCCCAGGTCAGGCGGGGGCACCCGCTGAGTTTACGC</Hsp_qseq>
+      <Hsp_hseq>TCCGTAGGTGAACCTGCGGAAGGATCATTGTTGAGACAGCAGAATATATGATCGAGTGAATCCGGTGGACTTGTGGTTACTCAGCTCAACATAGGCTTTGCTTTTGCGGTGACCCTAATTTGTCATTGGGCCTCCTCCAAAGCTTTCCTTGTGGGTTTGAACCTCTAGCACGGTGCAGTATG--CGCCAAGTCATATGAA-GCATCACTGATGAATGACATTATTGTCA--AAAAGTTGGAGTGGAAGCGTGCTATTGCATGCATGCAAATGATTTTTTTATGACTCTCGACAACGGATATCTTGGCTCTT-GCATCG-ATG-AAGAACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTT-GAACGCAAGTTGCGCCCGATGCCATCAGGCTAAGGGCACGCCTGCCTGGGCGTCGTGTGCTGCG--TCTCTCCTGTCAATGCTTTCGTATCATATAGATAGGTTTGCATTGCGTGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGTGGGTCTAAGGACTAGTGTTTTGATGGTTCGAAACCTGGCAGGAGGTGGA-GGATGTTGGCAGCTATAAGGCTATCATTTGTATCCCCCAATATTGTCGTGTTTGTCGGACCTAGAGAAGAACTTGTTTGAATCCCAATGGAGGCAAACAACCCTCAGGCGGTTGATTGCCATTCATATGCGACCCCAGGTCAGGCGGGGCCACCCGCTGAGTTTAAGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||| |||||| |  ||||| | |||||||||||||||| ||||  |||  ||||||||||| |   ||| |||||   | ||||||||| ||||||  ||||||| ||||   ||| | | | | ||||||||||||||||| ||| ||||| ||  ||||||| |||||||| ||||||| |  ||||| |||| |  ||   ||||   |||| ||  ||||||| | || |||   | ||||| ||||  ||||||||||  |||||  |||||||||||| |||||| ||| ||| ||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||| ||||||||||||||||||| ||||||||||||||||||||||||| ||||||||  | ||| ||  ||||||||| |||||||| |    |||| ||  |||   || | | | |||||||||||||||||||||||||||||||||||| ||||| |||  || ||||||||||||  || |||| |||| |||||||| ||||| |||||||      |||  | |  | ||||||| || |||||||| |||||||||    || |||||   |  ||| ||||||||||              |||||||||  |||||||  ||| ||||||||||||||||||| ||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|380005814|gb|JQ004989.1|</Hit_id>
+  <Hit_def>Cypripedium yunnanense internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence</Hit_def>
+  <Hit_accession>JQ004989</Hit_accession>
+  <Hit_len>762</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>611.727</Hsp_bit-score>
+      <Hsp_score>677</Hsp_score>
+      <Hsp_evalue>8.44993e-170</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>740</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>744</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>597</Hsp_identity>
+      <Hsp_positive>597</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>756</Hsp_align-len>
+      <Hsp_qseq>TCCGTAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTG--TACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACCCGGAGCGGCGGCGTGCTGTCGCGTGC---CCAATGAATTTTG-ATGACTCTCGCAAACGGGAATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTC--GCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGC-----AGCTGCCGTGCGAATCCCCC-ATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCCAATGGA--------------GGGCGGTTGACCGCCATTCGGATGTGACCCCAGGTCAGGCGGGGGCACCCGCTGAGTTTACGC</Hsp_qseq>
+      <Hsp_hseq>TCCGTAGGTGAACCTGCGGAAGGATCATTGTTGAGACAGCAGAATATATGATCGAGTGAATCCGGTGGACTTGTGGTTACTCAGCTCGACATAGGCTTTGCTTTTGCGGTGACCCTAATTTGTCATTGGGCCTCCTCCAAAGCTTTCCTTGTGGGTTTGAACCTCTAGCACGGTGCAGTATG--CGCCAAGTCATATGAA-GCATCACTGATGAATGACATTATTGTCA--AAAAGTTGGAGTGGAAGCGTGCTATTGCATGCATGCAAATGAATTTTTTATGACTCTCGACAACGGATATCTTGGCTCTT-GCATCG-ATG-AAGAACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTT-GAACGCAAGTTGCGCCCGATGCCATCAGGCTAAGGGCACGCCTGCCTGGGCGTCGTGTGCTGCG--TCTCTCCTGTCAATGCTTTCGTATCATATAGATAGGTTTGCATTGCGTGGATGTGAAGGATTGGCCCCTTGTGCCTAGGTGCGGTGGGTCTAAGGACTAGTGTTTTGATGGTTCGAAACCTGGCAGGAGGTGGA-GGATGTTGGCAGCTATAAGGCTATCATTTGAATCCCCCAATATTGTCGTGTTTGTCGGACCTAGAGAAGAACATGTTTGAATCCCAATGGAGGCAAACAACCCTCGGGCGGTTGATTGCCATTCATATGCGACCCCAGGTCAGGCGGGGCCACCCGCTGAGTTTAAGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||| |||||| |  ||||| | |||||||||||||||| ||||  |||  ||||||||||  |   ||| |||||   | ||||||||| ||||||  ||||||| ||||   ||| | | | | ||||||||||||||||| ||| ||||| ||  ||||||| |||||||| ||||||| |  ||||| |||| |  ||   ||||   |||| ||  ||||||| | || |||   | ||||||||||  ||||||||||  |||||  |||||||||||| |||||| ||| ||| ||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||| ||||||||||||||||||| ||||||||||||||||||||||||| ||||||||  | ||| ||  ||||||||| |||||||| |    |||| ||  |||   || | | | ||||||||| |||||||||||||||||||||||||| ||||| |||  || ||||||||||||  || |||| |||| |||||||| ||||| |||||||      |||  | |  ||||||||| || |||||||| |||||||||    || |||||   |  ||| |||||||||              ||||||||||  |||||||  ||| ||||||||||||||||||| ||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|2011261287|gb|MW785559.1|</Hit_id>
+  <Hit_def>Cypripedium calceolus isolate Slupiec 2 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MW785559</Hit_accession>
+  <Hit_len>740</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>609.022</Hsp_bit-score>
+      <Hsp_score>674</Hsp_score>
+      <Hsp_evalue>2.94932e-169</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>740</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>740</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>594</Hsp_identity>
+      <Hsp_positive>594</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>752</Hsp_align-len>
+      <Hsp_qseq>TAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTG--TACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACCCGGAGCGGCGGCGTGCTGTCGCGTGC---CCAATGAATTTTG-ATGACTCTCGCAAACGGGAATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTC--GCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGC-----AGCTGCCGTGCGAATCCCCC-ATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCCAATGGA--------------GGGCGGTTGACCGCCATTCGGATGTGACCCCAGGTCAGGCGGGGGCACCCGCTGAGTTTACGC</Hsp_qseq>
+      <Hsp_hseq>TAGGTGAACCTGCGGAAGGATCATTGTTGAGACAGCAGAATATATGATCGAGTGAATCCGGTGGACTTGTGGTTACTCAGCTCGACATAGGCTTTGCTTTTGCGGTGACCCTAATTTGCCATTGGGCCTCCTCCAAAGCTTTCCTTGTGGGTTTGAACCTCTAGCACGGCGCAGTATG--CGCCAAGTCATATGAA-GCATCACCGATGAATGACATTATTGTCA--AAAAGTTGGAGTGGAAGCGTGCTATTGCATGCATGCAAATGAATTTTTTATGACTCTCGACAACGGATATCTTGGCTCTT-GCATCG-ATG-AAGAACGCAGCAAAATGCGATAAGTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTT-GAACGCAAGTTGCGCCCGATGCCATCAGGCTAAGGGCACGCCTGCCTGGGCGTCGTGTGCTGCG--TCTCTCCTGTCAATGCTTTCATGTCATATAGATAGGTTTGCATTGCGTGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGTGGGTCTAAGGACTAGTGTTTTGATGGTTCGAAACCTGGCAGGAGGTGGA-GGATGTTGGCAGCTATAAGGCTATCATTTGAATCCCCCAATATTGTCGTGTTTGTCGGACCTAGAGAAAAACATGTTTGAATCCCAATGGAGGCAAACAACTCTCGGGCGGTTGATTGCCATTCATATGCGACCCCAGGTCAGGCGGGGCCACCCGCTGAGTTTAAGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||| |||||| |  ||||| | |||||||||||||||| ||||  |||  ||||||||||  |   ||| |||||   | ||||||||| |||||   ||||||| ||||   ||| | | | | ||||||||||||||||| ||||||||| ||  ||||||| |||||||| |||||||||  ||||| |||| |  ||   ||||   |||| ||  ||||||| | || |||   | ||||||||||  ||||||||||  |||||  |||||||||||| |||||| ||| ||| ||||||| ||||||||||||||||||||||||||  ||||||||||||||||||||||| ||||||||||||||||||| ||||||||||||||||||||||||| ||||||||  | ||| ||  ||||||||| |||||||| |  | |||| ||  |||   || | | | |||||||||||||||||||||||||||||||||||| ||||| |||  || ||||||||||||  || |||| |||| |||||||| ||||| |||||||      |||  | |  ||||||||| || |||||||| |||||||||    || | |||   |  ||| |||||||||              ||||||||||  |||||||  ||| ||||||||||||||||||| ||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|2030163935|gb|MZ044290.1|</Hit_id>
+  <Hit_def>Cypripedium calceolus isolate AJK-2 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MZ044290</Hit_accession>
+  <Hit_len>740</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>609.022</Hsp_bit-score>
+      <Hsp_score>674</Hsp_score>
+      <Hsp_evalue>2.94932e-169</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>740</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>740</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>594</Hsp_identity>
+      <Hsp_positive>594</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>752</Hsp_align-len>
+      <Hsp_qseq>TAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTG--TACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACCCGGAGCGGCGGCGTGCTGTCGCGTGC---CCAATGAATTTTG-ATGACTCTCGCAAACGGGAATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTC--GCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGC-----AGCTGCCGTGCGAATCCCCC-ATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCCAATGGA--------------GGGCGGTTGACCGCCATTCGGATGTGACCCCAGGTCAGGCGGGGGCACCCGCTGAGTTTACGC</Hsp_qseq>
+      <Hsp_hseq>TAGGTGAACCTGCGGAAGGATCATTGTTGAGACAGCAGAATATATGATCGAGTGAATCCGGTGGACTTGTGGTTACTCAGCTCGACATAGGCTTTGCTTTTGCGGTGACCCTAATTTGCCATTGGGCCTCCTCCAAAGCTTTCCTTGTGGGTTTGAACCTCTAGCACGGCGCAGTATG--CGCCAAGTCATATGAA-GCATCACCGATGAATGACATTATTGTCA--AAAAGTTGGAGTGGAAGCGTGCTATTGCATGCATGCAAATGAATTTTTTATGACTCTCGACAACGGATATCTTGGCTCTT-GCATCG-ATG-AAGAACGCAGCAAAATGCGATAAGTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTT-GAACGCAAGTTGCGCCCGATGCCATCAGGCTAAGGGCACGCCTGCCTGGGCGTCGTGTGCTGCG--TCTCTCCTGTCAATGCTTTCATGTCATATAGATAGGTTTGCATTGCGTGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGTGGGTCTAAGGACTAGTGTTTTGATGGTTCGAAACCTGGCAGGAGGTGGA-GGATGTTGGCAGCTATAAGGCTATCATTTGAATCCCCCAATATTGTCGTGTTTGTCGGACCTAGAGAAAAACATGTTTGAATCCCAATGGAGGCAAACAACTCTCGGGCGGTTGATTGCCATTCATATGCGACCCCAGGTCAGGCGGGGCCACCCGCTGAGTTTAAGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||| |||||| |  ||||| | |||||||||||||||| ||||  |||  ||||||||||  |   ||| |||||   | ||||||||| |||||   ||||||| ||||   ||| | | | | ||||||||||||||||| ||||||||| ||  ||||||| |||||||| |||||||||  ||||| |||| |  ||   ||||   |||| ||  ||||||| | || |||   | ||||||||||  ||||||||||  |||||  |||||||||||| |||||| ||| ||| ||||||| ||||||||||||||||||||||||||  ||||||||||||||||||||||| ||||||||||||||||||| ||||||||||||||||||||||||| ||||||||  | ||| ||  ||||||||| |||||||| |  | |||| ||  |||   || | | | |||||||||||||||||||||||||||||||||||| ||||| |||  || ||||||||||||  || |||| |||| |||||||| ||||| |||||||      |||  | |  ||||||||| || |||||||| |||||||||    || | |||   |  ||| |||||||||              ||||||||||  |||||||  ||| ||||||||||||||||||| ||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|2929215179|gb|PV278151.1|</Hit_id>
+  <Hit_def>Cypripedium sp. QW-2025a small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>PV278151</Hit_accession>
+  <Hit_len>797</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>608.12</Hsp_bit-score>
+      <Hsp_score>673</Hsp_score>
+      <Hsp_evalue>1.02941e-168</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>737</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>769</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>597</Hsp_identity>
+      <Hsp_positive>597</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>756</Hsp_align-len>
+      <Hsp_qseq>GTTTCCGTAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTG--TACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACCCGGAGCGGCGGCGTGCTGTCGCGTGC---CCAATGAATTTTG-ATGACTCTCGCAAACGGGAATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTC--GCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGC-----AGCTGCCGTGCGAATCCCCC-ATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCCAATGGA--------------GGGCGGTTGACCGCCATTCGGATGTGACCCCAGGTCAGGCGGGGGCACCCGCTGAGTTTA</Hsp_qseq>
+      <Hsp_hseq>GTTTCCGTAGGTGAAC-TGCGGAAGGATCATTGTTGAGACAGCAGAATATATGATCGAGTGAATCCGGTGGACTTGTGGTTACTCAGCTCGACATAGGCTTTGCTTTTGCGGTGACCCTAATTTGCCATTGGGCCTCCTCCAAAGCTTTCCTTGTGGGTTTGAACCTCTAGCACGGTGCAGTATG--CGCCAAGTCATATGAA-GCATCACCGATGAATGACATTATTGTCA--AAAAGTTGGAGTGGAAGCGTGCTATTGCATGCATGCAAATGAATTTTTTATGACTCTCGACAACGGATATCTTGGCTCTT-GCATCG-ATG-AAGAACGCAGCAAAATGCGATAAGTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTT-GAACGCAAGTTGCGCCCGATGCCATCAGGCTAAGGGCACGCCTGCCTGGGCGTCGTGTGCTGCG--TCTCTCCTGTCAATGCTTTCATGTCATATAGATAGGTTTGCATTGCGTGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGTGGGTCTAAGGACTAGTGTTTTGATGGTTCGAAACCTGGCAGGAGGTGGA-GGATGTTGGCAGCTATAAGGCTATCATTTGAATCCCCCAATATTGTCGTGTTTGTCGGACCTAGAGAAAAACATGTTTGAATCCCAATGGAGGCAAACAACTCTCGGGCGGTTGATTGCCATTCATATGCGACCCCAGGTCAGGCGGGGCCACCCGCTGAGTTTA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||| |||||||||||||||| |||||| |  ||||| | |||||||||||||||| ||||  |||  ||||||||||  |   ||| |||||   | ||||||||| |||||   ||||||| ||||   ||| | | | | ||||||||||||||||| ||| ||||| ||  ||||||| |||||||| |||||||||  ||||| |||| |  ||   ||||   |||| ||  ||||||| | || |||   | ||||||||||  ||||||||||  |||||  |||||||||||| |||||| ||| ||| ||||||| ||||||||||||||||||||||||||  ||||||||||||||||||||||| ||||||||||||||||||| ||||||||||||||||||||||||| ||||||||  | ||| ||  ||||||||| |||||||| |  | |||| ||  |||   || | | | |||||||||||||||||||||||||||||||||||| ||||| |||  || ||||||||||||  || |||| |||| |||||||| ||||| |||||||      |||  | |  ||||||||| || |||||||| |||||||||    || | |||   |  ||| |||||||||              ||||||||||  |||||||  ||| ||||||||||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|380005820|gb|JQ004995.1|</Hit_id>
+  <Hit_def>Cypripedium franchetii internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence</Hit_def>
+  <Hit_accession>JQ004995</Hit_accession>
+  <Hit_len>762</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>607.218</Hsp_bit-score>
+      <Hsp_score>672</Hsp_score>
+      <Hsp_evalue>1.02941e-168</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>740</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>744</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>596</Hsp_identity>
+      <Hsp_positive>596</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>756</Hsp_align-len>
+      <Hsp_qseq>TCCGTAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTG--TACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACCCGGAGCGGCGGCGTGCTGTCGCGTGC---CCAATGAATTTTG-ATGACTCTCGCAAACGGGAATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTC--GCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGC-----AGCTGCCGTGCGAATCCCCC-ATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCCAATGGA--------------GGGCGGTTGACCGCCATTCGGATGTGACCCCAGGTCAGGCGGGGGCACCCGCTGAGTTTACGC</Hsp_qseq>
+      <Hsp_hseq>TCCGTAGGTGAACCTGCGGAAGGATCATTGTTGAGACAGCAGAATATATGATCGAGTGAATCCGGTGGACTTGTGGTTACTCAGCTCGACATAGGCTTTGCTTTTGCGGCGACCCTAATTTGTCATTGGGCCTCCTCCAAAGCTTTCCTTGTGGGTTTGAACCTCTAGCACGGTGCAGTATG--CGCCAAGTCATATGAA-GCATCACTGATGAATGACATTATTGTCA--AAAAGTTGGAGTGGAAGCGTGCTATTGCATGCATGCAAATGAATTTTTTATGACTCTCGACAACGGATATCTTGGCTCTT-GCATCG-ATG-AAGAACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTT-GAACGCAAGTTGCGCCCGATGCCATCAGGCTAAGGGCACGCCTGCCTGGGCGTCGTGTGCTGCG--TCTCTCCTGTCAATGCTTTCGTATCATATAGATAGGTTTGCATTGCGTGGATGTGAAGGATTGGCCCCTTGTGCCTAGGTGCGGTGGGTCTAAGGACTAGTGTTTTGATGGTTCGAAACCTGGCAGGAGGTGGA-GGATGTTGGCAGCTATAAGGCTATCATTTGAATCCCCCAATATTGTCGTGTTTGTCGGACCTAGAGAAGAACATGTTTGAATCCCAATGGAGGCAAACAACCCTCGGGCGGTTGATTGCCATTCATATGCGACCCCAGGTCAGGCGGGGCCACCCGCTGAGTTTAAGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||| |||||| |  ||||| | |||||||||||||||| ||||  |||  ||||||||||  |   ||| |||||   | || |||||| ||||||  ||||||| ||||   ||| | | | | ||||||||||||||||| ||| ||||| ||  ||||||| |||||||| ||||||| |  ||||| |||| |  ||   ||||   |||| ||  ||||||| | || |||   | ||||||||||  ||||||||||  |||||  |||||||||||| |||||| ||| ||| ||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||| ||||||||||||||||||| ||||||||||||||||||||||||| ||||||||  | ||| ||  ||||||||| |||||||| |    |||| ||  |||   || | | | ||||||||| |||||||||||||||||||||||||| ||||| |||  || ||||||||||||  || |||| |||| |||||||| ||||| |||||||      |||  | |  ||||||||| || |||||||| |||||||||    || |||||   |  ||| |||||||||              ||||||||||  |||||||  ||| ||||||||||||||||||| ||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|2030163937|gb|MZ044292.1|</Hit_id>
+  <Hit_def>Cypripedium calceolus isolate AJK-1 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MZ044292</Hit_accession>
+  <Hit_len>740</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>606.317</Hsp_bit-score>
+      <Hsp_score>671</Hsp_score>
+      <Hsp_evalue>3.593e-168</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>740</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>740</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>593</Hsp_identity>
+      <Hsp_positive>593</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>752</Hsp_align-len>
+      <Hsp_qseq>TAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTG--TACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACCCGGAGCGGCGGCGTGCTGTCGCGTGC---CCAATGAATTTTG-ATGACTCTCGCAAACGGGAATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTC--GCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGC-----AGCTGCCGTGCGAATCCCCC-ATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCCAATGGA--------------GGGCGGTTGACCGCCATTCGGATGTGACCCCAGGTCAGGCGGGGGCACCCGCTGAGTTTACGC</Hsp_qseq>
+      <Hsp_hseq>TAGGTGAACCTGCGGAAGGATCATTGTTGAGACAGCAGAATATATGATCGAGTGAATCCGGTGGACTTGTGGTTACTCAGCTCGACATAGGCTTTGCTTTTGCGGTGACCCTAATTTGCCATTGGGCCTCCTCCAAAGCTTTCCTTGTGGGTTTGAACCTCTAGCACGGYGCAGTATG--CGCCAAGTCATATGAA-GCATCACCGATGAATGACATTATTGTCA--AAAAGTTGGAGTGGAAGCGTGCTATTGCATGCATGCAAATGAATTTTTTATGACTCTCGACAACGGATATCTTGGCTCTT-GCATCG-ATG-AAGAACGCAGCAAAATGCGATAAGTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTT-GAACGCAAGTTGCGCCCGATGCCATCAGGCTAAGGGCACGCCTGCCTGGGCGTCGTGTGCTGCG--TCTCTCCTGTCAATGCTTTCATGTCATATAGATAGGTTTGCATTGCGTGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGTGGGTCTAAGGACTAGTGTTTTGATGGTTCGAAACCTGGCAGGAGGTGGA-GGATGTTGGCAGCTATAAGGCTATCATTTGAATCCCCCAATATTGTCGTGTTTGTCGGACCTAGAGAAAAACATGTTTGAATCCCAATGGAGGCAAACAACTCTCGGGCGGTTGATTGCCATTCATATGCGACCCCAGGTCAGGCGGGGCCACCCGCTGAGTTTAAGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||| |||||| |  ||||| | |||||||||||||||| ||||  |||  ||||||||||  |   ||| |||||   | ||||||||| |||||   ||||||| ||||   ||| | | | | ||||||||||||||||| ||| ||||| ||  ||||||| |||||||| |||||||||  ||||| |||| |  ||   ||||   |||| ||  ||||||| | || |||   | ||||||||||  ||||||||||  |||||  |||||||||||| |||||| ||| ||| ||||||| ||||||||||||||||||||||||||  ||||||||||||||||||||||| ||||||||||||||||||| ||||||||||||||||||||||||| ||||||||  | ||| ||  ||||||||| |||||||| |  | |||| ||  |||   || | | | |||||||||||||||||||||||||||||||||||| ||||| |||  || ||||||||||||  || |||| |||| |||||||| ||||| |||||||      |||  | |  ||||||||| || |||||||| |||||||||    || | |||   |  ||| |||||||||              ||||||||||  |||||||  ||| ||||||||||||||||||| ||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|2030163939|gb|MZ044294.1|</Hit_id>
+  <Hit_def>Cypripedium calceolus isolate AJK-5a small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MZ044294</Hit_accession>
+  <Hit_len>740</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>606.317</Hsp_bit-score>
+      <Hsp_score>671</Hsp_score>
+      <Hsp_evalue>3.593e-168</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>740</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>740</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>593</Hsp_identity>
+      <Hsp_positive>593</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>752</Hsp_align-len>
+      <Hsp_qseq>TAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTG--TACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACCCGGAGCGGCGGCGTGCTGTCGCGTGC---CCAATGAATTTTG-ATGACTCTCGCAAACGGGAATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTC--GCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGC-----AGCTGCCGTGCGAATCCCCC-ATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCCAATGGA--------------GGGCGGTTGACCGCCATTCGGATGTGACCCCAGGTCAGGCGGGGGCACCCGCTGAGTTTACGC</Hsp_qseq>
+      <Hsp_hseq>TAGGTGAACCTGCGGAAGGATCATTGTTGAGACAGCAGAATATATGATCGAGTGAATCCGGTGGACTTGTGGTTACTCAGCTCGACATAGGCTTTGCTTTTGCGGTGACCCTAATTTGCCATTGGGCCTCCTCCAAAGCTTTCCTTGTGGGTTTGAACCTCTAGCACGGYGCAGTATG--CGCCAAGTCATATGAA-GCATCACCGATGAATGACATTATTGTCA--AAAAGTTGGAGTGGAAGCGTGCTATTGCATGCATGCAAATGAATTTTTTATGACTCTCGACAACGGATATCTTGGCTCTT-GCATCG-ATG-AAGAACGCAGCAAAATGCGATAAGTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTT-GAACGCAAGTTGCGCCCGATGCCATCAGGCTAAGGGCACGCCTGCCTGGGCGTCGTGTGCTGCG--TCTCTCCTGTCAATGCTTTCATGTCATATAGATAGGTTTGCATTGCGTGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGTGGGTCTAAGGACTAGTGTTTTGATGGTTCGAAACCTGGCAGGAGGTGGA-GGATGTTGGCAGCTATAAGGCTATCATTTGAATCCCCCAATATTGTCGTGTTTGTCGGACCTAGAGAAAAACATGTTTGAATCCCAATGGAGGCAAACAACTCTCGGGCGGTTGATTGCCATTCATATGCGACCCCAGGTCAGGCGGGGCCACCCGCTGAGTTTAAGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||| |||||| |  ||||| | |||||||||||||||| ||||  |||  ||||||||||  |   ||| |||||   | ||||||||| |||||   ||||||| ||||   ||| | | | | ||||||||||||||||| ||| ||||| ||  ||||||| |||||||| |||||||||  ||||| |||| |  ||   ||||   |||| ||  ||||||| | || |||   | ||||||||||  ||||||||||  |||||  |||||||||||| |||||| ||| ||| ||||||| ||||||||||||||||||||||||||  ||||||||||||||||||||||| ||||||||||||||||||| ||||||||||||||||||||||||| ||||||||  | ||| ||  ||||||||| |||||||| |  | |||| ||  |||   || | | | |||||||||||||||||||||||||||||||||||| ||||| |||  || ||||||||||||  || |||| |||| |||||||| ||||| |||||||      |||  | |  ||||||||| || |||||||| |||||||||    || | |||   |  ||| |||||||||              ||||||||||  |||||||  ||| ||||||||||||||||||| ||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|2030163946|gb|MZ044301.1|</Hit_id>
+  <Hit_def>Cypripedium calceolus isolate AJK-10.2 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MZ044301</Hit_accession>
+  <Hit_len>740</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>606.317</Hsp_bit-score>
+      <Hsp_score>671</Hsp_score>
+      <Hsp_evalue>3.593e-168</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>740</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>740</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>593</Hsp_identity>
+      <Hsp_positive>593</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>752</Hsp_align-len>
+      <Hsp_qseq>TAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTG--TACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACCCGGAGCGGCGGCGTGCTGTCGCGTGC---CCAATGAATTTTG-ATGACTCTCGCAAACGGGAATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTC--GCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGC-----AGCTGCCGTGCGAATCCCCC-ATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCCAATGGA--------------GGGCGGTTGACCGCCATTCGGATGTGACCCCAGGTCAGGCGGGGGCACCCGCTGAGTTTACGC</Hsp_qseq>
+      <Hsp_hseq>TAGGTGAACCTGCGGAAGGATCATTGTTGAGACAGCAGAATATATGATCGAGTGAATCCGGTGGACTTGTGGTTACTCAGCTCGACATAGGCTTTGCTTTTGCGGTGACCCTAATTTGCCATTGGGCCTCCTCCAAAGCTTTCCTTGTGGGTTTGAACCTCTAGCACGGYGCAGTATG--CGCCAAGTCATATGAA-GCATCACCGATGAATGACATTATTGTCA--AAAAGTTGGAGTGGAAGCGTGCTATTGCATGCATGCAAATGAATTTTTTATGACTCTCGACAACGGATATCTTGGCTCTT-GCATCG-ATG-AAGAACGCAGCAAAATGCGATAAGTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTT-GAACGCAAGTTGCGCCCGATGCCATCAGGCTAAGGGCACGCCTGCCTGGGCGTCGTGTGCTGCG--TCTCTCCTGTCAATGCTTTCATGTCATATAGATAGGTTTGCATTGCGTGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGTGGGTCTAAGGACTAGTGTTTTGATGGTTCGAAACCTGGCAGGAGGTGGA-GGATGTTGGCAGCTATAAGGCTATCATTTGAATCCCCCAATATTGTCGTGTTTGTCGGACCTAGAGAAAAACATGTTTGAATCCCAATGGAGGCAAACAACTCTCGGGCGGTTGATTGCCATTCATATGCGACCCCAGGTCAGGCGGGGCCACCCGCTGAGTTTAAGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||| |||||| |  ||||| | |||||||||||||||| ||||  |||  ||||||||||  |   ||| |||||   | ||||||||| |||||   ||||||| ||||   ||| | | | | ||||||||||||||||| ||| ||||| ||  ||||||| |||||||| |||||||||  ||||| |||| |  ||   ||||   |||| ||  ||||||| | || |||   | ||||||||||  ||||||||||  |||||  |||||||||||| |||||| ||| ||| ||||||| ||||||||||||||||||||||||||  ||||||||||||||||||||||| ||||||||||||||||||| ||||||||||||||||||||||||| ||||||||  | ||| ||  ||||||||| |||||||| |  | |||| ||  |||   || | | | |||||||||||||||||||||||||||||||||||| ||||| |||  || ||||||||||||  || |||| |||| |||||||| ||||| |||||||      |||  | |  ||||||||| || |||||||| |||||||||    || | |||   |  ||| |||||||||              ||||||||||  |||||||  ||| ||||||||||||||||||| ||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|2030163940|gb|MZ044295.1|</Hit_id>
+  <Hit_def>Cypripedium calceolus isolate AJK-5b small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MZ044295</Hit_accession>
+  <Hit_len>740</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>606.317</Hsp_bit-score>
+      <Hsp_score>671</Hsp_score>
+      <Hsp_evalue>3.593e-168</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>740</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>740</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>593</Hsp_identity>
+      <Hsp_positive>593</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>752</Hsp_align-len>
+      <Hsp_qseq>TAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTG--TACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACCCGGAGCGGCGGCGTGCTGTCGCGTGC---CCAATGAATTTTG-ATGACTCTCGCAAACGGGAATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTC--GCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGC-----AGCTGCCGTGCGAATCCCCC-ATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCCAATGGA--------------GGGCGGTTGACCGCCATTCGGATGTGACCCCAGGTCAGGCGGGGGCACCCGCTGAGTTTACGC</Hsp_qseq>
+      <Hsp_hseq>TAGGTGAACCTGCGGAAGGATCATTGTTGAGACAGCAGAATATATGATCGAGTGAATCCGGTGGACTTGTGGTTACTCAGCTCGACATAGGCTTTGCTTTTGCGGTGACCCTAATTTGCCATTGGGCCTCCTCCAAAGCTTTCCTTGTGGGTTTGAACCTCTAGCACGGYGCAGTATG--CGCCAAGTCATATGAA-GCATCACCGATGAATGACATTATTGTCA--AAAAGTTGGAGTGGAAGCGTGCTATTGCATGCATGCAAATGAATTTTTTATGACTCTCGACAACGGATATCTTGGCTCTT-GCATCG-ATG-AAGAACGCAGCAAAATGCGATAAGTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTT-GAACGCAAGTTGCGCCCGATGCCATCAGGCTAAGGGCACGCCTGCCTGGGCGTCGTGTGCTGCG--TCTCTCCTGTCAATGCTTTCATGTCATATAGATAGGTTTGCATTGCGTGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGTGGGTCTAAGGACTAGTGTTTTGATGGTTCGAAACCTGGCAGGAGGTGGA-GGATGTTGGCAGCTATAAGGCTATCATTTGAATCCCCCAATATTGTCGTGTTTGTCGGACCTAGAGAAAAACATGTTTGAATCCCAATGGAGGCAAACAACTCTCGGGCGGTTGATTGCCATTCATATGCGACCCCAGGTCAGGCGGGGCCACCCGCTGAGTTTAAGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||| |||||| |  ||||| | |||||||||||||||| ||||  |||  ||||||||||  |   ||| |||||   | ||||||||| |||||   ||||||| ||||   ||| | | | | ||||||||||||||||| ||| ||||| ||  ||||||| |||||||| |||||||||  ||||| |||| |  ||   ||||   |||| ||  ||||||| | || |||   | ||||||||||  ||||||||||  |||||  |||||||||||| |||||| ||| ||| ||||||| ||||||||||||||||||||||||||  ||||||||||||||||||||||| ||||||||||||||||||| ||||||||||||||||||||||||| ||||||||  | ||| ||  ||||||||| |||||||| |  | |||| ||  |||   || | | | |||||||||||||||||||||||||||||||||||| ||||| |||  || ||||||||||||  || |||| |||| |||||||| ||||| |||||||      |||  | |  ||||||||| || |||||||| |||||||||    || | |||   |  ||| |||||||||              ||||||||||  |||||||  ||| ||||||||||||||||||| ||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|2030163938|gb|MZ044293.1|</Hit_id>
+  <Hit_def>Cypripedium calceolus isolate AJK-3 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MZ044293</Hit_accession>
+  <Hit_len>740</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>606.317</Hsp_bit-score>
+      <Hsp_score>671</Hsp_score>
+      <Hsp_evalue>3.593e-168</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>740</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>740</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>593</Hsp_identity>
+      <Hsp_positive>593</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>752</Hsp_align-len>
+      <Hsp_qseq>TAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTG--TACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACCCGGAGCGGCGGCGTGCTGTCGCGTGC---CCAATGAATTTTG-ATGACTCTCGCAAACGGGAATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTC--GCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGC-----AGCTGCCGTGCGAATCCCCC-ATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCCAATGGA--------------GGGCGGTTGACCGCCATTCGGATGTGACCCCAGGTCAGGCGGGGGCACCCGCTGAGTTTACGC</Hsp_qseq>
+      <Hsp_hseq>TAGGTGAACCTGCGGAAGGATCATTGTTGAGACAGCAGAATATATGATCGAGTGAATCCGGTGGACTTGTGGTTACTCAGCTCGACATAGGCTTTGCTTTTGCGGTGACCCTAATTTGCCATTGGGCCTCCTCCAAAGCTTTCCTTGTGGGTTTGAACCTCTAGCACGGYGCAGTATG--CGCCAAGTCATATGAA-GCATCACCGATGAATGACATTATTGTCA--AAAAGTTGGAGTGGAAGCGTGCTATTGCATGCATGCAAATGAATTTTTTATGACTCTCGACAACGGATATCTTGGCTCTT-GCATCG-ATG-AAGAACGCAGCAAAATGCGATAAGTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTT-GAACGCAAGTTGCGCCCGATGCCATCAGGCTAAGGGCACGCCTGCCTGGGCGTCGTGTGCTGCG--TCTCTCCTGTCAATGCTTTCATGTCATATAGATAGGTTTGCATTGCGTGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGTGGGTCTAAGGACTAGTGTTTTGATGGTTCGAAACCTGGCAGGAGGTGGA-GGATGTTGGCAGCTATAAGGCTATCATTTGAATCCCCCAATATTGTCGTGTTTGTCGGACCTAGAGAAAAACATGTTTGAATCCCAATGGAGGCAAACAACTCTCGGGCGGTTGATTGCCATTCATATGCGACCCCAGGTCAGGCGGGGCCACCCGCTGAGTTTAAGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||| |||||| |  ||||| | |||||||||||||||| ||||  |||  ||||||||||  |   ||| |||||   | ||||||||| |||||   ||||||| ||||   ||| | | | | ||||||||||||||||| ||| ||||| ||  ||||||| |||||||| |||||||||  ||||| |||| |  ||   ||||   |||| ||  ||||||| | || |||   | ||||||||||  ||||||||||  |||||  |||||||||||| |||||| ||| ||| ||||||| ||||||||||||||||||||||||||  ||||||||||||||||||||||| ||||||||||||||||||| ||||||||||||||||||||||||| ||||||||  | ||| ||  ||||||||| |||||||| |  | |||| ||  |||   || | | | |||||||||||||||||||||||||||||||||||| ||||| |||  || ||||||||||||  || |||| |||| |||||||| ||||| |||||||      |||  | |  ||||||||| || |||||||| |||||||||    || | |||   |  ||| |||||||||              ||||||||||  |||||||  ||| ||||||||||||||||||| ||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|2030163941|gb|MZ044296.1|</Hit_id>
+  <Hit_def>Cypripedium calceolus isolate AJK-6 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MZ044296</Hit_accession>
+  <Hit_len>740</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>606.317</Hsp_bit-score>
+      <Hsp_score>671</Hsp_score>
+      <Hsp_evalue>3.593e-168</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>740</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>740</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>593</Hsp_identity>
+      <Hsp_positive>593</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>752</Hsp_align-len>
+      <Hsp_qseq>TAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTG--TACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACCCGGAGCGGCGGCGTGCTGTCGCGTGC---CCAATGAATTTTG-ATGACTCTCGCAAACGGGAATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTC--GCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGC-----AGCTGCCGTGCGAATCCCCC-ATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCCAATGGA--------------GGGCGGTTGACCGCCATTCGGATGTGACCCCAGGTCAGGCGGGGGCACCCGCTGAGTTTACGC</Hsp_qseq>
+      <Hsp_hseq>TAGGTGAACCTGCGGAAGGATCATTGTTGAGACAGCAGAATATATGATCGAGTGAATCCGGTGGACTTGTGGTTACTCAGCTCGACATAGGCTTTGCTTTTGCGGTGACCCTAATTTGCCATTGGGCCTCCTCCAAAGCTTTCCTTGTGGGTTTGAACCTCTAGCACGGYGCAGTATG--CGCCAAGTCATATGAA-GCATCACCGATGAATGACATTATTGTCA--AAAAGTTGGAGTGGAAGCGTGCTATTGCATGCATGCAAATGAATTTTTTATGACTCTCGACAACGGATATCTTGGCTCTT-GCATCG-ATG-AAGAACGCAGCAAAATGCGATAAGTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTT-GAACGCAAGTTGCGCCCGATGCCATCAGGCTAAGGGCACGCCTGCCTGGGCGTCGTGTGCTGCG--TCTCTCCTGTCAATGCTTTCATGTCATATAGATAGGTTTGCATTGCGTGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGTGGGTCTAAGGACTAGTGTTTTGATGGTTCGAAACCTGGCAGGAGGTGGA-GGATGTTGGCAGCTATAAGGCTATCATTTGAATCCCCCAATATTGTCGTGTTTGTCGGACCTAGAGAAAAACATGTTTGAATCCCAATGGAGGCAAACAACTCTCGGGCGGTTGATTGCCATTCATATGCGACCCCAGGTCAGGCGGGGCCACCCGCTGAGTTTAAGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||| |||||| |  ||||| | |||||||||||||||| ||||  |||  ||||||||||  |   ||| |||||   | ||||||||| |||||   ||||||| ||||   ||| | | | | ||||||||||||||||| ||| ||||| ||  ||||||| |||||||| |||||||||  ||||| |||| |  ||   ||||   |||| ||  ||||||| | || |||   | ||||||||||  ||||||||||  |||||  |||||||||||| |||||| ||| ||| ||||||| ||||||||||||||||||||||||||  ||||||||||||||||||||||| ||||||||||||||||||| ||||||||||||||||||||||||| ||||||||  | ||| ||  ||||||||| |||||||| |  | |||| ||  |||   || | | | |||||||||||||||||||||||||||||||||||| ||||| |||  || ||||||||||||  || |||| |||| |||||||| ||||| |||||||      |||  | |  ||||||||| || |||||||| |||||||||    || | |||   |  ||| |||||||||              ||||||||||  |||||||  ||| ||||||||||||||||||| ||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|2030163942|gb|MZ044297.1|</Hit_id>
+  <Hit_def>Cypripedium calceolus isolate AJK-8 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MZ044297</Hit_accession>
+  <Hit_len>740</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>604.513</Hsp_bit-score>
+      <Hsp_score>669</Hsp_score>
+      <Hsp_evalue>1.25408e-167</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>740</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>740</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>593</Hsp_identity>
+      <Hsp_positive>593</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>752</Hsp_align-len>
+      <Hsp_qseq>TAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTG--TACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACCCGGAGCGGCGGCGTGCTGTCGCGTGC---CCAATGAATTTTG-ATGACTCTCGCAAACGGGAATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTC--GCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGC-----AGCTGCCGTGCGAATCCCCC-ATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCCAATGGA--------------GGGCGGTTGACCGCCATTCGGATGTGACCCCAGGTCAGGCGGGGGCACCCGCTGAGTTTACGC</Hsp_qseq>
+      <Hsp_hseq>TAGGTGAACCTGCGGAAGGATCATTGTTGAGACAGCAGAATATATGATCGAGTGAATCCGGTGGACTTGTGGTTACTCAGCTCGACATAGGCTTTGCTTTTGCGGTGACCCTAATTTGCCATTGGGCCTCCTCCAAAGCTTTCCTTGTGGGTTTGAACCTCTAGCACGGTGCAGTATG--CGCCAAGTCATATGAA-GCATCACCGATGAATGACATTATTGTCA--AAAAGTTGGAGTGGAAGCGTGCTATTGCATGCATGCAAATGAATTTTTTATGACTCTCGACAACGGATATCTTGGCTCTT-GCATCG-ATG-AAGAACGCAGCAAAATGCGATAAGTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTT-GAACGCAAGTTGCGCCCGATGCCATCAGGCTAAGGGCACGCCTGCCTGGGCGTCGTGTGCTGCG--TCTCTCCTGTCAATGCTTTCATGTCATATAGATAGGTTTGCATTGCGTGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGTGGGTCTAAGGACTAGTGTTTTGATGGTTCGAAACCTGGCAGGAGGTGGA-GGATGTTGGCAGCTATAAGGCTATCATTTGAATCCCCCAATATTGTCGTGTTTGTCGGACCTAGAGAAAAACATGTTTGAATCCCAATGGAGGCAAACAACTCTCGGGCGGTTGATTGCCATTCATATGCGACCCCAGGTCAGGCGGGGCCACCCGCTGAGTTTAAGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||| |||||| |  ||||| | |||||||||||||||| ||||  |||  ||||||||||  |   ||| |||||   | ||||||||| |||||   ||||||| ||||   ||| | | | | ||||||||||||||||| ||| ||||| ||  ||||||| |||||||| |||||||||  ||||| |||| |  ||   ||||   |||| ||  ||||||| | || |||   | ||||||||||  ||||||||||  |||||  |||||||||||| |||||| ||| ||| ||||||| ||||||||||||||||||||||||||  ||||||||||||||||||||||| ||||||||||||||||||| ||||||||||||||||||||||||| ||||||||  | ||| ||  ||||||||| |||||||| |  | |||| ||  |||   || | | | |||||||||||||||||||||||||||||||||||| ||||| |||  || ||||||||||||  || |||| |||| |||||||| ||||| |||||||      |||  | |  ||||||||| || |||||||| |||||||||    || | |||   |  ||| |||||||||              ||||||||||  |||||||  ||| ||||||||||||||||||| ||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|2030163944|gb|MZ044299.1|</Hit_id>
+  <Hit_def>Cypripedium calceolus isolate AJK-10.1 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MZ044299</Hit_accession>
+  <Hit_len>740</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>604.513</Hsp_bit-score>
+      <Hsp_score>669</Hsp_score>
+      <Hsp_evalue>1.25408e-167</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>740</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>740</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>593</Hsp_identity>
+      <Hsp_positive>593</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>752</Hsp_align-len>
+      <Hsp_qseq>TAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTG--TACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACCCGGAGCGGCGGCGTGCTGTCGCGTGC---CCAATGAATTTTG-ATGACTCTCGCAAACGGGAATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTC--GCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGC-----AGCTGCCGTGCGAATCCCCC-ATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCCAATGGA--------------GGGCGGTTGACCGCCATTCGGATGTGACCCCAGGTCAGGCGGGGGCACCCGCTGAGTTTACGC</Hsp_qseq>
+      <Hsp_hseq>TAGGTGAACCTGCGGAAGGATCATTGTTGAGACAGCAGAATATATGATCGAGTGAATCCGGTGGACTTGTGGTTACTCAGCTCGACATAGGCTTTGCTTTTGCGGTGACCCTAATTTGCCATTGGGCCTCCTCCAAAGCTTTCCTTGTGGGTTTGAACCTCTAGCACGGTGCAGTATG--CGCCAAGTCATATGAA-GCATCACCGATGAATGACATTATTGTCA--AAAAGTTGGAGTGGAAGCGTGCTATTGCATGCATGCAAATGAATTTTTTATGACTCTCGACAACGGATATCTTGGCTCTT-GCATCG-ATG-AAGAACGCAGCAAAATGCGATAAGTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTT-GAACGCAAGTTGCGCCCGATGCCATCAGGCTAAGGGCACGCCTGCCTGGGCGTCGTGTGCTGCG--TCTCTCCTGTCAATGCTTTCATGTCATATAGATAGGTTTGCATTGCGTGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGTGGGTCTAAGGACTAGTGTTTTGATGGTTCGAAACCTGGCAGGAGGTGGA-GGATGTTGGCAGCTATAAGGCTATCATTTGAATCCCCCAATATTGTCGTGTTTGTCGGACCTAGAGAAAAACATGTTTGAATCCCAATGGAGGCAAACAACTCTCGGGCGGTTGATTGCCATTCATATGCGACCCCAGGTCAGGCGGGGCCACCCGCTGAGTTTAAGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||| |||||| |  ||||| | |||||||||||||||| ||||  |||  ||||||||||  |   ||| |||||   | ||||||||| |||||   ||||||| ||||   ||| | | | | ||||||||||||||||| ||| ||||| ||  ||||||| |||||||| |||||||||  ||||| |||| |  ||   ||||   |||| ||  ||||||| | || |||   | ||||||||||  ||||||||||  |||||  |||||||||||| |||||| ||| ||| ||||||| ||||||||||||||||||||||||||  ||||||||||||||||||||||| ||||||||||||||||||| ||||||||||||||||||||||||| ||||||||  | ||| ||  ||||||||| |||||||| |  | |||| ||  |||   || | | | |||||||||||||||||||||||||||||||||||| ||||| |||  || ||||||||||||  || |||| |||| |||||||| ||||| |||||||      |||  | |  ||||||||| || |||||||| |||||||||    || | |||   |  ||| |||||||||              ||||||||||  |||||||  ||| ||||||||||||||||||| ||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|2030163945|gb|MZ044300.1|</Hit_id>
+  <Hit_def>Cypripedium calceolus isolate AJK-10.3 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MZ044300</Hit_accession>
+  <Hit_len>740</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>604.513</Hsp_bit-score>
+      <Hsp_score>669</Hsp_score>
+      <Hsp_evalue>1.25408e-167</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>740</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>740</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>593</Hsp_identity>
+      <Hsp_positive>593</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>752</Hsp_align-len>
+      <Hsp_qseq>TAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTG--TACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACCCGGAGCGGCGGCGTGCTGTCGCGTGC---CCAATGAATTTTG-ATGACTCTCGCAAACGGGAATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTC--GCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGC-----AGCTGCCGTGCGAATCCCCC-ATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCCAATGGA--------------GGGCGGTTGACCGCCATTCGGATGTGACCCCAGGTCAGGCGGGGGCACCCGCTGAGTTTACGC</Hsp_qseq>
+      <Hsp_hseq>TAGGTGAACCTGCGGAAGGATCATTGTTGAGACAGCAGAATATATGATCGAGTGAATCCGGTGGACTTGTGGTTACTCAGCTCGACATAGGCTTTGCTTTTGCGGTGACCCTAATTTGCCATTGGGCCTCCTCCAAAGCTTTCCTTGTGGGTTTGAACCTCTAGCACGGTGCAGTATG--CGCCAAGTCATATGAA-GCATCACCGATGAATGACATTATTGTCA--AAAAGTTGGAGTGGAAGCGTGCTATTGCATGCATGCAAATGAATTTTTTATGACTCTCGACAACGGATATCTTGGCTCTT-GCATCG-ATG-AAGAACGCAGCAAAATGCGATAAGTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTT-GAACGCAAGTTGCGCCCGATGCCATCAGGCTAAGGGCACGCCTGCCTGGGCGTCGTGTGCTGCG--TCTCTCCTGTCAATGCTTTCATGTCATATAGATAGGTTTGCATTGCGTGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGTGGGTCTAAGGACTAGTGTTTTGATGGTTCGAAACCTGGCAGGAGGTGGA-GGATGTTGGCAGCTATAAGGCTATCATTTGAATCCCCCAATATTGTCGTGTTTGTCGGACCTAGAGAAAAACATGTTTGAATCCCAATGGAGGCAAACAACTCTCGGGCGGTTGATTGCCATTCATATGCGACCCCAGGTCAGGCGGGGCCACCCGCTGAGTTTAAGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||| |||||| |  ||||| | |||||||||||||||| ||||  |||  ||||||||||  |   ||| |||||   | ||||||||| |||||   ||||||| ||||   ||| | | | | ||||||||||||||||| ||| ||||| ||  ||||||| |||||||| |||||||||  ||||| |||| |  ||   ||||   |||| ||  ||||||| | || |||   | ||||||||||  ||||||||||  |||||  |||||||||||| |||||| ||| ||| ||||||| ||||||||||||||||||||||||||  ||||||||||||||||||||||| ||||||||||||||||||| ||||||||||||||||||||||||| ||||||||  | ||| ||  ||||||||| |||||||| |  | |||| ||  |||   || | | | |||||||||||||||||||||||||||||||||||| ||||| |||  || ||||||||||||  || |||| |||| |||||||| ||||| |||||||      |||  | |  ||||||||| || |||||||| |||||||||    || | |||   |  ||| |||||||||              ||||||||||  |||||||  ||| ||||||||||||||||||| ||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|2030163943|gb|MZ044298.1|</Hit_id>
+  <Hit_def>Cypripedium calceolus isolate AJK-9 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MZ044298</Hit_accession>
+  <Hit_len>740</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>604.513</Hsp_bit-score>
+      <Hsp_score>669</Hsp_score>
+      <Hsp_evalue>1.25408e-167</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>740</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>740</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>593</Hsp_identity>
+      <Hsp_positive>593</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>752</Hsp_align-len>
+      <Hsp_qseq>TAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTGAATCCGGAGGACCGGTG--TACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGGCCGCCTCGGGAGCGTCCATGGCGGGTTTGAACCTCTAGCCCGGCGCAGTTTGGGCGCCAAGCCATATGAAAGCATCACCGGCGAATGGCATTGTCTTCCCCAAAACCCGGAGCGGCGGCGTGCTGTCGCGTGC---CCAATGAATTTTG-ATGACTCTCGCAAACGGGAATCTTGGCTCTTTGCATCGGATGGAAGGACGCAGCGAAATGCGATAAGTGGTGTGAATTGCAAGATCCCGTGAACCATCGAGTCTTTTGAACGCAAGTTGCGCCCGAGGCCATCAGGCTAAGGGCACGCCTGCTTGGGCGTC--GCGCTTCGTCTCTCTCCTGCCAATGCTTGCCCGGCATACAGCCAGGCCGGCGTGGTGCGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGCGGGTCCAAGAGCTGGTGTTTTGATGGCCCGGAACCCGGCAAGAGGTGGACGGATGCTGGCAGC-----AGCTGCCGTGCGAATCCCCC-ATGTTGTCGTGCTTGTCGGACAGGCAGGAGAACCCTTCCGAACCCCAATGGA--------------GGGCGGTTGACCGCCATTCGGATGTGACCCCAGGTCAGGCGGGGGCACCCGCTGAGTTTACGC</Hsp_qseq>
+      <Hsp_hseq>TAGGTGAACCTGCGGAAGGATCATTGTTGAGACAGCAGAATATATGATCGAGTGAATCCGGTGGACTTGTGGTTACTCAGCTCGACATAGGCTTTGCTTTTGCGGTGACCCTAATTTGCCATTGGGCCTCCTCCAAAGCTTTCCTTGTGGGTTTGAACCTCTAGCACGGTGCAGTATG--CGCCAAGTCATATGAA-GCATCACCGATGAATGACATTATTGTCA--AAAAGTTGGAGTGGAAGCGTGCTATTGCATGCATGCAAATGAATTTTTTATGACTCTCGACAACGGATATCTTGGCTCTT-GCATCG-ATG-AAGAACGCAGCAAAATGCGATAAGTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTT-GAACGCAAGTTGCGCCCGATGCCATCAGGCTAAGGGCACGCCTGCCTGGGCGTCGTGTGCTGCG--TCTCTCCTGTCAATGCTTTCATGTCATATAGATAGGTTTGCATTGCGTGGATGTGAAAGATTGGCCCCTTGTGCCTAGGTGCGGTGGGTCTAAGGACTAGTGTTTTGATGGTTCGAAACCTGGCAGGAGGTGGA-GGATGTTGGCAGCTATAAGGCTATCATTTGAATCCCCCAATATTGTCGTGTTTGTCGGACCTAGAGAAAAACATGTTTGAATCCCAATGGAGGCAAACAACTCTCGGGCGGTTGATTGCCATTCATATGCGACCCCAGGTCAGGCGGGGCCACCCGCTGAGTTTAAGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||| |||||| |  ||||| | |||||||||||||||| ||||  |||  ||||||||||  |   ||| |||||   | ||||||||| |||||   ||||||| ||||   ||| | | | | ||||||||||||||||| ||| ||||| ||  ||||||| |||||||| |||||||||  ||||| |||| |  ||   ||||   |||| ||  ||||||| | || |||   | ||||||||||  ||||||||||  |||||  |||||||||||| |||||| ||| ||| ||||||| ||||||||||||||||||||||||||  ||||||||||||||||||||||| ||||||||||||||||||| ||||||||||||||||||||||||| ||||||||  | ||| ||  ||||||||| |||||||| |  | |||| ||  |||   || | | | |||||||||||||||||||||||||||||||||||| ||||| |||  || ||||||||||||  || |||| |||| |||||||| ||||| |||||||      |||  | |  ||||||||| || |||||||| |||||||||    || | |||   |  ||| |||||||||              ||||||||||  |||||||  ||| ||||||||||||||||||| ||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>117332178</Statistics_db-num>
+      <Statistics_db-len>913329066385</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
