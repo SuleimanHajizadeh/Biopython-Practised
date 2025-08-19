@@ -1,0 +1,7 @@
+# Hide all JavaScript files from GitHub language statistics
+*.js linguist-generated=true
+
+# If you have build/dist folders, hide them too
+dist/** linguist-generated=true
+build/** linguist-generated=true
+node_modules/** linguist-generated=true
