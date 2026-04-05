@@ -1,4 +1,4 @@
-# Biopython-Practised: Technical Implementations and Statistical Bio-computation
+# Biopython Implementation and Statistical Modeling Archive
 
 [![Biopython](https://img.shields.io/badge/Bioinformatics-Biopython-blue.svg)](https://biopython.org/)
 [![Statistics](https://img.shields.io/badge/Statistics-ANOVA-orange.svg)](https://scipy.org/)
@@ -6,73 +6,64 @@
 
 ## Overview
 
-This repository contains an extensive collection of technical implementations and statistical methods utilized in biological data analysis. The project focuses on programmatic sequence manipulation, structural biology parsing, and advanced ANOVA-based statistical modeling for clinical and biological datasets.
+This repository contains the technical implementations and statistical bio-computation workflows utilized in genomic and structural data analysis. The project is focused on programmatic biological data manipulation via Biopython and factor-based statistical modeling (ANOVA) for clinical trial datasets.
 
 ---
 
-## Technical Curriculum
+## Technical Curriculum and Assignments
 
-The repository is structured into specific implementation domains:
+The learning and implementation pathway is organized into structured modules and homework assignments:
 
-### 1. Sequence Manipulation and Parsing
-*   **Sequence Objects (Seq):** Modeling the Central Dogma with DNA, RNA, and protein conversions.
-*   **File I/O (SeqIO):** Robust parsing of FASTA, GenBank, and FASTQ data formats.
+### 1. Biopython Marathon (1–30)
+Technical Jupyter Notebooks focusing on the programmatic handling of biological sequences:
+- **Baseline Fundamentals:** `Biopython 1ci ders.ipynb` and `Biopython ders 2.ipynb`.
+- **Homework Progression:** Sequential assignments from `firstHomeWork.ipynb` to `eighteenthHomeWork.ipynb`, covering transcription, translation, and file I/O (SeqIO/AlignIO).
+- **Seminars:** `Biopython ders 2 seminar.ipynb` - Deep dive into sequence alignment and NCBI Entrez querying.
 
-### 2. NCBI Data Mining and Alignment
-*   **Entrez Integration:** Programmatic retrieval of genomic data via NCBI APIs.
-*   **Alignment Parsing (AlignIO):** Technical processing of PHYLIP, Stockholm, and Clustal alignments.
-*   **ExPASy:** SwissProt database access and analysis.
+### 2. Statistical Modeling (ANOVA)
+Specialized notebooks for multi-factorial biological data analysis:
+- **Drug and Enzyme Activity:** `ANOVA_Drug_Enzyme_Activity_Project.ipynb`.
+- **Clinical Trials:** `Interaction_Plot_Clinical_Trial.ipynb`.
+- **Methodology Tutorials:** 
+    - `Extended_ANOVA_Beginner_Project.ipynb`.
+    - `Intermediate_ANOVA_Tutorial.ipynb`.
+    - `Advanced_ANOVA.ipynb`.
 
-### 3. Structural Bioinformatics
-*   **PDB/CIF Parsing:** 3D coordinate analysis and structural metadata extraction via `Bio.PDB`.
-*   **Ligand Interactions:** Quantification of spatial distances and interaction sites (Example: `1fat.cif`).
-*   **Visualization:** Integration of PyMOL educational structures.
-
-### 4. Statistical Bio-computation (ANOVA)
-*   **Experimental Design:** One-way and multi-way ANOVA for drug-enzyme activity profiling.
-*   **Tutorial Series:** Beginner to Advanced ANOVA tutorial notebooks focusing on F-distributions and interaction plots.
-
----
-
-## Data Classification
-
-Handled bioinformatics formats include:
-- **Genomic:** FASTA (`.fa`, `.fna`), GenBank (`.gb`, `.gbk`).
-- **Alignment:** Clustal (`.aln`), Stockholm (`.sth`), PHYLIP (`.phy`).
-- **Structural:** PDB, CIF (`.cif`, `.bcif.gz`).
-- **Sequencing:** FASTQ, SAM, BAM.
+### 3. Structural and Genomic Data Files
+The repository includes real-world data indices for structural parsing:
+- **PDB/CIF Data:** `1fat.cif`, `1gbt.bcif.gz`, and `2uvo_hhblits.hhr`.
+- **Genomic Indices:** `ecoli.fa`, `bsubtilis.fa`, `NC_005816.gb`, and `drosophila.fasta`.
+- **Sequencing:** `example.fastq`, `dna_rna.sam`, and `est.panTro5.psl`.
 
 ---
 
-## Setup and Dependencies
+## Technical Stack
 
-Environment requirements for Jupyter Notebook execution:
+- **Python Core:** Biopython, Scipy (Stats), Pandas, Numpy.
+- **Visualization:** Matplotlib, Seaborn, PyMOL.
+- **Analysis:** Jupyter Notebook (IPYNB).
+
+---
+
+## Laboratory Setup
+
+### Environment Dependencies:
 
 ```bash
-pip install biopython pandas numpy scipy matplotlib seaborn
+pip install biopython jupyter pandas numpy scipy matplotlib
 ```
 
-For structural biology analysis, a working installation of PyMOL is required.
+Structural modules (PDB/CIF) require a working installation of **PyMOL**. Educational license metadata is available in the `PyMOL/` directory.
 
 ---
 
-## Usage Guide
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/SuleimanHajizadeh/Biopython-Practised.git
-   ```
-2. **Execute Modules:** Start with the fundamental lesson `Biopython 1ci ders.ipynb` and follow through to the advanced homework assignments.
-
----
-
-## Contact
+## Author Contact
 
 **Suleiman Hajizadeh**  
 Lead Bioinformatician @ Azerbaijan  
 - **Email:** suleyman.hacizade1@gmail.com  
-- **Expertise:** Proteomics, Structural Bio-analysis, Statistics
+- **Topics:** Advanced Proteomics, Structural Bio-analysis, Statistics
 
 ---
 > [!NOTE]
-> All datasets utilized for training are sourced from NCBI, PDB, and official Biopython documentation archives.
+> All biological data used (e.g., `ls_orchid.fasta`, `hg38.fa`) are sourced from public archival databases (NCBI/PDB). Refer to the `documents/` directory for additional reference metadata.
