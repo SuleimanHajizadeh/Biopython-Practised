@@ -1,0 +1,25 @@
+# System files
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+
+# IDEs and Editors
+.vscode/
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual Environments
+venv/
+env/
+.env/
+
+# Large Datasets
+data/raw/*.fastq
+data/raw/*.sam
+data/raw/*.bam
+data/raw/*.fa
+data/raw/*.fasta
+data/raw/*.tsv

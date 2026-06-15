@@ -1,0 +1,12 @@
+name: biopython-practised-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - matplotlib
+  - biopython
+  - scipy
+  - statsmodels
