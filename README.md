@@ -66,6 +66,27 @@ Biopython-Practised/
 
 ---
 
+## 🔬 Mathematical & Statistical Foundations
+
+To validate biochemical assays and clinical drug responses, the biostatistics pipelines in this repository utilize the following mathematical frameworks:
+
+### 1. Analysis of Variance (ANOVA)
+To test whether $k$ independent group means are significantly different, we compute the $F$-ratio of the between-group variance to the within-group variance:
+$$F = \frac{\text{Mean Square Between (MSB)}}{\text{Mean Square Within (MSW)}} = \frac{SS_{\text{between}} / (k - 1)}{SS_{\text{within}} / (N - k)}$$
+where:
+* $SS_{\text{between}} = \sum_{j=1}^{k} n_j (\bar{Y}_j - \bar{Y})^2$ represents the variation among group means.
+* $SS_{\text{within}} = \sum_{j=1}^{k} \sum_{i=1}^{n_j} (Y_{ij} - \bar{Y}_j)^2$ represents the residual variation within groups.
+* $N$ is the total sample size across all groups.
+
+---
+
+### 2. Tukey's Honestly Significant Difference (HSD)
+When the ANOVA $F$-test rejects the null hypothesis, post-hoc pairwise comparisons are performed to control the Family-Wise Error Rate (FWER). The minimum significant difference between any two group means is defined as:
+$$\text{HSD} = q_{\alpha, k, N-k} \sqrt{\frac{\text{MSW}}{n}}$$
+where $q$ is the Studentized Range distribution critical value at significance level $\alpha$, and $n$ is the sample size per group (assuming a balanced design).
+
+---
+
 ## 🔗 Related Portfolios
 
 This repository is part of a comprehensive bioinformatics research profile:
