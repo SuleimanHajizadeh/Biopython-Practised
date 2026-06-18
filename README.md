@@ -102,4 +102,3 @@ This repository is part of a comprehensive bioinformatics research profile:
 
 **Author:** Suleiman Hajizadeh | Bioinformatician @ IMBB, Azerbaijan  
 📧 suleyman.hacizade1@gmail.com | 🔗 [GitHub Portfolio](https://github.com/SuleimanHajizadeh)
- 
