@@ -8,6 +8,7 @@ tags:
   - sequence-manipulation
   - translation
   - codon-tables
+  - reading-frames
 sources:
   - "[[practice_notebooks/2 dersCalisma.ipynb]]"
   - "[[practice_notebooks/Biopython ders 2.ipynb]]"
@@ -15,58 +16,114 @@ sources:
 
 # Bio.Seq
 
-The `Bio.Seq` module provides core string-like sequence containers (`Seq`, `MutableSeq`) and biological transformation functions like transcription, translation, and complementation.
+The `Bio.Seq` module provides the core string-like sequence containers (`Seq`, `MutableSeq`) and biological transformation functions like transcription, translation, and complementation.
 
 ---
 
 ## Key Classes & Methods
 
-### `Seq` and `MutableSeq`
-- `Seq` objects are **immutable** string wrappers (analogous to Python `str`).
-- `MutableSeq` allows in-place modifications (slice assignment, `.append()`, `.reverse()`).
+### 1. `Seq` and `MutableSeq`
+- **`Seq`**: Immutable string wrapper supporting standard Python string methods (slicing, `.count()`, `.find()`, `.startswith()`) plus biological operations.
+- **`MutableSeq`**: Mutable sequence object allowing in-place modifications (slice assignment, `.append()`, `.extend()`, `.reverse()`).
 
 ```python
 from Bio.Seq import Seq, MutableSeq
 
 my_seq = Seq("ATGGCCATTGTAATGGGCCGCTGAAAGGGTGCCCGATAG")
+
+# In-place mutations
 mut_seq = MutableSeq(my_seq)
-mut_seq[0] = "C"
-print(mut_seq)
+mut_seq[0:3] = "GTG"
+mut_seq.append("A")
+print(f"Mutated Seq: {mut_seq}")
 ```
 
-### Central Dogma Transformations
+---
+
+## Central Dogma Operations
+
+Biological transformations can be called either as standalone functions or directly as methods on `Seq` instances:
+
 ```python
-from Bio.Seq import transcribe, back_transcribe, translate, reverse_complement
+from Bio.Seq import Seq
 
 dna = Seq("ATGGCCATTGTAATGGGCCGCTGAAAGGGTGCCCGATAG")
 
-# Transcription: DNA (coding strand) -> mRNA
-mrna = transcribe(dna)  # AUGGCCAUUGUAAUGGGCCGCUGAAAGGGUGCCCGAUAG
+# 1. Transcription (Coding DNA -> mRNA)
+mrna = dna.transcribe()
+# Output: AUGGCCAUUGUAAUGGGCCGCUGAAAGGGUGCCCGAUAG
 
-# Reverse transcription: mRNA -> cDNA
-cdna = back_transcribe(mrna)
+# 2. Reverse Transcription (mRNA -> cDNA)
+cdna = mrna.back_transcribe()
 
-# Reverse complement
-rev_comp = reverse_complement(dna)
+# 3. Complementation & Reverse Complementation
+comp = dna.complement()
+rev_comp = dna.reverse_complement()
 
-# Translation: DNA/mRNA -> Protein
-protein = translate(dna, to_stop=False)
+# 4. Translation (mRNA/DNA -> Protein)
+protein_all = dna.translate()                 # MAIVMGR*KGAR* (includes stop codons)
+protein_orf = dna.translate(to_stop=True)     # MAIVMGR (halts at first stop)
+protein_custom_stop = dna.translate(stop_symbol="@")
 ```
 
-### Codon Tables
-Translation can specify custom genetic codes using `Bio.Data.CodonTable`:
+---
+
+## Six-Frame Translation
+
+Extracting all 6 reading frames (+1, +2, +3 on forward strand; -1, -2, -3 on reverse strand):
+
+```python
+def get_six_frames(dna_seq: Seq) -> dict:
+    frames = {}
+    for frame in range(3):
+        # Forward frames (+1, +2, +3)
+        frames[f"+{frame+1}"] = dna_seq[frame:].translate()
+        # Reverse frames (-1, -2, -3)
+        frames[f"-{frame+1}"] = dna_seq.reverse_complement()[frame:].translate()
+    return frames
+```
+
+---
+
+## Custom Codon Tables & Genetic Codes
+
+Translation supports all NCBI genetic code tables via `Bio.Data.CodonTable`:
 
 ```python
 from Bio.Data import CodonTable
 
+# Inspect standard and mitochondrial tables
 standard_table = CodonTable.unambiguous_dna_by_name["Standard"]
 mito_table = CodonTable.unambiguous_dna_by_name["Vertebrate Mitochondrial"]
-print(standard_table.stop_codons)
+
+print("Standard Stop Codons:", standard_table.stop_codons)
+print("Standard Start Codons:", standard_table.start_codons)
+
+# Translate using mitochondrial table
+mito_protein = dna.translate(table="Vertebrate Mitochondrial")
+```
+
+---
+
+## Motif & Pattern Searching
+
+```python
+seq = Seq("AAAAAAATCGAAAA")
+
+# Non-overlapping count
+print(seq.count("AA"))  # 4
+
+# Overlapping count
+print(seq.count_overlap("AA"))  # 9
+
+# Find motif start index
+pos = seq.find("TCG")
+print(f"Motif found at index: {pos}")
 ```
 
 ---
 
 ## Connections & See Also
 - [[Bio.SeqIO]]: Parsing records to extract `Seq` instances.
-- [[Central-Dogma-Sequence-Operations]]: Conceptual guide to reading frames and translation.
-- [[Bio.Align.PairwiseAligner]]: Aligning biological sequences.
+- [[Central-Dogma-Sequence-Operations]]: Theoretical foundations of reading frames and the genetic code.
+- [[Bio.Align.PairwiseAligner]]: Aligning sequence objects.
