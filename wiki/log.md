@@ -4,6 +4,11 @@ A chronological, append-only log of all operations (ingests, queries, syntheses,
 
 ---
 
+## [2026-08-17] ingest | Ingest Biological Data Formats
+- Ingested format specifications from `data/raw/` (FASTA, FASTQ, GenBank, Clustal, Stockholm, Phylip, NEXUS, MSF, XMFA, BED, PSL, Chain, mmCIF).
+- Created concept page [[Biological-Data-Formats]].
+- Updated [[wiki/index.md]].
+
 ## [2026-08-17] ingest | Repository Codebase Ingestion
 - **Source Modules**: `biostatistics/`, `structural_biology/`, and `practice_notebooks/`.
 - **Entities Ingested**:
