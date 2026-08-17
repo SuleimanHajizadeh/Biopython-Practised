@@ -4,6 +4,11 @@ A chronological, append-only log of all operations (ingests, queries, syntheses,
 
 ---
 
+## [2026-08-17] doc | Master Repository Documentation & Obsidian Guide
+- Authored comprehensive [DOCUMENTATION.md](file:///Users/macbookairm2/Documents/GitHub/Biopython-Practised/DOCUMENTATION.md) covering all notebooks, directories, datasets, and presentation materials.
+- Created synthesis [[Obsidian-LLM-Wiki-Integration]].
+- Updated [[wiki/index.md]].
+
 ## [2026-08-17] ingest | Ingest Biological Data Formats
 - Ingested format specifications from `data/raw/` (FASTA, FASTQ, GenBank, Clustal, Stockholm, Phylip, NEXUS, MSF, XMFA, BED, PSL, Chain, mmCIF).
 - Created concept page [[Biological-Data-Formats]].

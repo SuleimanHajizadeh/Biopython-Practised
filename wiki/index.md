@@ -41,6 +41,7 @@ Welcome to the LLM-maintained Knowledge Base. This index catalogs all concepts, 
 
 - [[Biopython-Modern-API-Migration|Biopython Modern API Migration Guide]]: Practical migration guide for legacy `pairwise2`, `GC`, and `Bio.Alphabet` patterns.
 - [[Computational-Biochemistry-and-Stats-Pipeline|Computational Biochemistry & Statistics Integration Pipeline]]: The end-to-end research flow connecting sequence, structure, and statistical validation.
+- [[Obsidian-LLM-Wiki-Integration|Obsidian & LLM Wiki Integration Guide]]: Architectural guide and operational manual for navigating this vault in Obsidian.
 
 ---
 
